@@ -1,3 +1,6 @@
 .venv/
 *.pem
 albums-server
+terraform.tfvars
+.terraform/
+*.tfstate*
