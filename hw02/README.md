@@ -10,6 +10,10 @@
 | `part4.py` | Script that GETs both instances, POSTs to instance 2, then GETs both again |
 | `screenshots/` | Evidence for each part |
 
+## Part I: MapReduce review
+
+Posted on Piazza as a Note in the hw2 folder.
+
 ## Part II: Terraform
 
 `terraform init` → `terraform apply` → SSH in → `terraform destroy`.
@@ -26,7 +30,7 @@ Built and ran the image locally, then cloned the repo onto a Terraform-created E
 
 - **Local:** the build took 16.1s, and the final image is **31.4 MB**. `curl localhost:8080/albums` returns the three albums.
   ![](screenshots/01-docker-build-run-local.png)
-- **EC2:** installed git, added 2 GB of swap (the Go compile step gets OOM-killed on a 1 GiB t2.micro), cloned, built, and ran:
+- **EC2:** installed git, added 2 GB of swap, cloned, built, and ran. The Go compile step took **408s** on the t2.micro (1 vCPU, 1 GiB RAM), compared with 16s on my Mac:
   ![](screenshots/04-ec2-swap-clone-build.png)
   ![](screenshots/05-ec2-build-done-docker-ps.png)
 - **Reached from my Mac** at `http://34.213.51.55:8080/albums`:
@@ -53,3 +57,9 @@ Running `part4.py`, which POSTs album 4 to instance 2 only:
 ### What happened?
 
 Each EC2 instance runs its own independent copy of the server, and the album "database" is just a Go slice in that process's memory. The POST went to instance 2, so only instance 2's slice gained album 4. Instance 1 never heard about it, and the two copies now disagree. The data is also not durable: restarting either container (or the instance) resets it to the three hard-coded albums. If a load balancer were in front of these two boxes, a client could write to one, have the next read routed to the other, and conclude their data was lost. Scaling out therefore needs stateless application servers backed by a shared data store, or replication between the nodes. Replication brings its own problems: keeping copies consistent, handling concurrent writes, and deciding what a reader should see while an update is still propagating.
+
+### Cleanup
+
+Ran `terraform destroy -auto-approve` (3 resources: both instances and the security group). The console confirms both instances are terminated:
+
+![](screenshots/12-part4-cleanup-both-terminated.png)
