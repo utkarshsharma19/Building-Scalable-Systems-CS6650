@@ -4,3 +4,4 @@ albums-server
 terraform.tfvars
 .terraform/
 *.tfstate*
+__pycache__/
