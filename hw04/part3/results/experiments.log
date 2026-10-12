@@ -1,0 +1,17 @@
+Matplotlib is building the font cache; this may take a moment.
+  1MB n=1  total 0.55s
+  1MB n=3  total 0.68s
+  5MB n=1  total 0.98s
+  5MB n=3  total 0.90s
+ 10MB n=1  total 1.59s
+ 10MB n=3  total 1.21s
+ 25MB n=1  total 3.46s
+ 25MB n=3  total 2.16s
+ 50MB n=1  total 7.04s
+ 50MB n=3  total 3.33s
+50MB chunks=1  total 6.65s
+50MB chunks=2  total 4.30s
+50MB chunks=3  total 3.39s
+50MB chunks=6  total 4.11s
+50MB chunks=9  total 4.32s
+plots written to results/
