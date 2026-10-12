@@ -1,5 +1,7 @@
 # HW4: ECR, ECS, Fargate and MapReduce
 
+Utkarsh Sharma · Code: https://github.com/utkarshsharma19/Building-Scalable-Systems-CS6650/tree/main/hw04
+
 Everything ran in the AWS Learner Lab in us-west-2. I built the Docker images on an M1 MacBook.
 
 Part I is posted on Piazza in the reading folder.
