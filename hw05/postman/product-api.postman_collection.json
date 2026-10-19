@@ -1,0 +1,307 @@
+{
+  "info": {
+    "name": "HW5 Product API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    }
+  ],
+  "item": [
+    {
+      "name": "GET 200 - product found",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/products/1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET 404 - product not found",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/products/99999",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "99999"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET 404 - non-numeric id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/products/abc",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "abc"
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET 500 - simulated server error",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "X-Simulate-Error",
+            "value": "true"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST 204 - details updated",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/1/details",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "1",
+            "details"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product_id\": 1,\n  \"sku\": \"ABC-123-XYZ\",\n  \"manufacturer\": \"Acme Corporation\",\n  \"category_id\": 456,\n  \"weight\": 1250,\n  \"some_other_id\": 789\n}"
+        }
+      }
+    },
+    {
+      "name": "POST 400 - malformed JSON",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/1/details",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "1",
+            "details"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{bad json"
+        }
+      }
+    },
+    {
+      "name": "POST 400 - missing required field",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/1/details",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "1",
+            "details"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"product_id\": 1}"
+        }
+      }
+    },
+    {
+      "name": "POST 400 - constraint violated (weight < 0)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/1/details",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "1",
+            "details"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product_id\": 1,\n  \"sku\": \"ABC-123-XYZ\",\n  \"manufacturer\": \"Acme Corporation\",\n  \"category_id\": 456,\n  \"weight\": -5,\n  \"some_other_id\": 789\n}"
+        }
+      }
+    },
+    {
+      "name": "POST 400 - body id != path id",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/2/details",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "2",
+            "details"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product_id\": 1,\n  \"sku\": \"ABC-123-XYZ\",\n  \"manufacturer\": \"Acme Corporation\",\n  \"category_id\": 456,\n  \"weight\": 1250,\n  \"some_other_id\": 789\n}"
+        }
+      }
+    },
+    {
+      "name": "POST 400 - invalid path id",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/0/details",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "0",
+            "details"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product_id\": 1,\n  \"sku\": \"ABC-123-XYZ\",\n  \"manufacturer\": \"Acme Corporation\",\n  \"category_id\": 456,\n  \"weight\": 1250,\n  \"some_other_id\": 789\n}"
+        }
+      }
+    },
+    {
+      "name": "POST 404 - product not found",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/99999/details",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "99999",
+            "details"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product_id\": 99999,\n  \"sku\": \"ABC-123-XYZ\",\n  \"manufacturer\": \"Acme Corporation\",\n  \"category_id\": 456,\n  \"weight\": 1250,\n  \"some_other_id\": 789\n}"
+        }
+      }
+    },
+    {
+      "name": "POST 500 - simulated server error",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "X-Simulate-Error",
+            "value": "true"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/products/1/details",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "products",
+            "1",
+            "details"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"product_id\": 1,\n  \"sku\": \"ABC-123-XYZ\",\n  \"manufacturer\": \"Acme Corporation\",\n  \"category_id\": 456,\n  \"weight\": 1250,\n  \"some_other_id\": 789\n}"
+        }
+      }
+    }
+  ]
+}

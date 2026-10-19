@@ -1,0 +1,43 @@
+services:
+  app:
+    build:
+      context: ../src
+      args:
+        ARCH: ${ARCH:-amd64}
+    ports:
+      - "8080:8080"
+
+  prometheus:
+    build:
+      context: .
+      dockerfile: Dockerfile.prometheus
+    ports:
+      - "9090:9090"
+    depends_on:
+      - app
+
+  grafana:
+    build:
+      context: .
+      dockerfile: Dockerfile.grafana
+    environment:
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: Admin
+      GF_AUTH_DISABLE_LOGIN_FORM: "true"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+  master:
+    build: ../locust
+    image: hw05-locust
+    ports:
+      - "8089:8089"
+    command: -f ${LOCUSTFILE:-locustfile.py} --master -H http://app:8080
+
+  worker:
+    image: hw05-locust
+    command: -f ${LOCUSTFILE:-locustfile.py} --worker --master-host master
+    depends_on:
+      - master

@@ -1,0 +1,13 @@
+services:
+  master:
+    build: .
+    image: hw05-locust
+    ports:
+      - "8089:8089"
+    command: -f ${LOCUSTFILE:-locustfile.py} --master -H ${TARGET_HOST:-http://host.docker.internal:8080}
+
+  worker:
+    image: hw05-locust
+    command: -f ${LOCUSTFILE:-locustfile.py} --worker --master-host master
+    depends_on:
+      - master
