@@ -1,0 +1,67 @@
+{
+  "current_fail_per_sec": 0.0,
+  "current_response_time_percentiles": {
+    "response_time_percentile_0.5": null,
+    "response_time_percentile_0.95": null
+  },
+  "current_rps": 1512.8,
+  "errors": [],
+  "fail_ratio": 0.0,
+  "state": "stopped",
+  "stats": [
+    {
+      "avg_content_length": 1595.3374945836508,
+      "avg_response_time": 34.36107269650281,
+      "current_fail_per_sec": 0.0,
+      "current_rps": 1512.8,
+      "max_response_time": 234.0,
+      "median_response_time": 32,
+      "method": "GET",
+      "min_response_time": 13.0,
+      "name": "GET /products/search?q=[term]",
+      "num_failures": 0,
+      "num_requests": 267708,
+      "response_time_percentile_0.95": 52,
+      "response_time_percentile_0.99": 96,
+      "total_fail_per_sec": 0.0,
+      "total_rps": 1487.575158707696
+    },
+    {
+      "avg_content_length": 1595.3374945836508,
+      "avg_response_time": 34.36107269650281,
+      "current_fail_per_sec": 0.0,
+      "current_rps": 1512.8,
+      "max_response_time": 234.0,
+      "median_response_time": 32,
+      "method": "",
+      "min_response_time": 13.0,
+      "name": "Aggregated",
+      "num_failures": 0,
+      "num_requests": 267708,
+      "response_time_percentile_0.95": 52,
+      "response_time_percentile_0.99": 96,
+      "total_fail_per_sec": 0.0,
+      "total_rps": 1487.575158707696
+    }
+  ],
+  "total_fail_per_sec": 0.0,
+  "total_rps": 1487.575158707696,
+  "user_count": 0,
+  "worker_count": 2,
+  "workers": [
+    {
+      "cpu_usage": 0.5,
+      "id": "9c7cd1d4f64a_b83098fed27b40d48ac8ff1bd6382522",
+      "memory_usage": 56545280,
+      "state": "ready",
+      "user_count": 0
+    },
+    {
+      "cpu_usage": 0.5,
+      "id": "2bf66ebb9255_c1d6d21fb39b45aa85e595f4ab240764",
+      "memory_usage": 56594432,
+      "state": "ready",
+      "user_count": 0
+    }
+  ]
+}

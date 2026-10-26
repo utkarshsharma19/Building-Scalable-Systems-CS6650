@@ -1,0 +1,3 @@
+FROM prom/prometheus:v3.5.0
+ARG CONFIG=prometheus.local.yml
+COPY ${CONFIG} /etc/prometheus/prometheus.yml

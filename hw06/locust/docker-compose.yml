@@ -1,0 +1,22 @@
+services:
+  master:
+    build: .
+    image: hw06-locust
+    ports:
+      - "8089:8089"
+    command: -f ${LOCUSTFILE:-locustfile.py} --master -H ${TARGET_HOST:-http://host.docker.internal:8080}
+    environment:
+      - SHAPE
+      - LOCUST_HEADLESS
+      - LOCUST_USERS
+      - LOCUST_SPAWN_RATE
+      - LOCUST_RUN_TIME
+      - LOCUST_EXPECT_WORKERS
+
+  worker:
+    image: hw06-locust
+    command: -f ${LOCUSTFILE:-locustfile.py} --worker --master-host master
+    environment:
+      - SHAPE
+    depends_on:
+      - master

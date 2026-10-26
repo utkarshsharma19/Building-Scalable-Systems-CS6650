@@ -1,0 +1,39 @@
+services:
+  ecs-sd:
+    build: ecs-sd
+    environment:
+      CLUSTER: ${CLUSTER:-product-search-cluster}
+      SERVICE: ${SERVICE:-product-search}
+      AWS_REGION: ${AWS_REGION:-us-west-2}
+    volumes:
+      - ~/.aws:/root/.aws:ro
+      - sd:/sd
+
+  prometheus:
+    build:
+      context: .
+      dockerfile: Dockerfile.prometheus
+      args:
+        CONFIG: prometheus.aws.yml
+    ports:
+      - "9090:9090"
+    volumes:
+      - sd:/sd:ro
+    depends_on:
+      - ecs-sd
+
+  grafana:
+    build:
+      context: .
+      dockerfile: Dockerfile.grafana
+    environment:
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+      GF_AUTH_ANONYMOUS_ORG_ROLE: Admin
+      GF_AUTH_DISABLE_LOGIN_FORM: "true"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+
+volumes:
+  sd:
