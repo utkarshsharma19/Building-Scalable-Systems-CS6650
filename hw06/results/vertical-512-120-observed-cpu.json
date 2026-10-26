@@ -1,0 +1,6 @@
+{
+  "provenance": "Observed AWS CLI GetMetricStatistics response during the run; transcribed from tool output. Later metrics unavailable after credentials revoked.",
+  "timestamp": "2026-10-26T09:30:00-07:00",
+  "average_percent": 95.20459747314453,
+  "maximum_percent": 98.9014663696289
+}
