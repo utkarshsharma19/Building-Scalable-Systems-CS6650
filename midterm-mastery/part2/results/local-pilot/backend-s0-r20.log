@@ -1,0 +1,36 @@
+DEBUG: Simulated loss: dropped incoming datagram (12 bytes)
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f16k.bin"
+BACKEND_STATS opens=4 retys=0 source_fetches=4 avg_fetch_ms=0 datagrams_sent=304 overload_drops=0 queue_high=0 queue_cap=32
+DEBUG: Simulated loss: dropped incoming datagram (13 bytes)
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f16k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f16k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f64k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f64k.bin"
+BACKEND_STATS opens=4 retys=0 source_fetches=4 avg_fetch_ms=1 datagrams_sent=2560 overload_drops=0 queue_high=0 queue_cap=32
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f64k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f256k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f256k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f256k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1m.bin"
+BACKEND_STATS opens=5 retys=0 source_fetches=5 avg_fetch_ms=3 datagrams_sent=29696 overload_drops=0 queue_high=0 queue_cap=32
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1m.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1m.bin"
+BACKEND_STATS opens=2 retys=0 source_fetches=2 avg_fetch_ms=0 datagrams_sent=32768 overload_drops=0 queue_high=0 queue_cap=32

@@ -1,0 +1,7 @@
+file,ok,fetches,avg_open_attempts,avg_retry_rounds,avg_retys_sent,max_retys_sent,avg_missing_final,avg_ms,max_ms
+f1k.bin,true,8,1.25,0,0,0,0,2537.625,4043
+f1m.bin,false,8,1.375,5,26341.375,42130,5147.875,19626,22756
+f16k.bin,true,8,1.375,1.25,29.625,151,0,5390.375,10473
+f64k.bin,false,2,1,5,1087.5,1580,101,13046,13058
+f64k.bin,true,6,1.3333,0.8333,43.6667,262,0,4489.6667,12709
+f256k.bin,false,8,1.5,5,3232.875,8635,531.375,15503.375,16674

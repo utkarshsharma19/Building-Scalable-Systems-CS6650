@@ -1,0 +1,42 @@
+Missing 1 chunks, retrying (round 1)
+FETCH_STATS file=f1k.bin chunks=16 open_attempts=1 retry_rounds=1 retys_sent=1 missing_final=0 dur_ms=4002 ok=true outcome="ok"
+FETCH_STATS file=f1k.bin chunks=16 open_attempts=1 retry_rounds=0 retys_sent=0 missing_final=0 dur_ms=2001 ok=true outcome="ok"
+Missing 2 chunks, retrying (round 1)
+FETCH_STATS file=f1k.bin chunks=16 open_attempts=1 retry_rounds=1 retys_sent=2 missing_final=0 dur_ms=4002 ok=true outcome="ok"
+Missing 3 chunks, retrying (round 1)
+FETCH_STATS file=f16k.bin chunks=256 open_attempts=1 retry_rounds=1 retys_sent=3 missing_final=0 dur_ms=4006 ok=true outcome="ok"
+Missing 1 chunks, retrying (round 1)
+FETCH_STATS file=f16k.bin chunks=256 open_attempts=1 retry_rounds=1 retys_sent=1 missing_final=0 dur_ms=4005 ok=true outcome="ok"
+Missing 4 chunks, retrying (round 1)
+FETCH_STATS file=f16k.bin chunks=256 open_attempts=1 retry_rounds=1 retys_sent=4 missing_final=0 dur_ms=4006 ok=true outcome="ok"
+Missing 15 chunks, retrying (round 1)
+FETCH_STATS file=f64k.bin chunks=1024 open_attempts=1 retry_rounds=1 retys_sent=15 missing_final=0 dur_ms=4019 ok=true outcome="ok"
+Missing 4 chunks, retrying (round 1)
+FETCH_STATS file=f64k.bin chunks=1024 open_attempts=1 retry_rounds=1 retys_sent=4 missing_final=0 dur_ms=4016 ok=true outcome="ok"
+Missing 9 chunks, retrying (round 1)
+FETCH_STATS file=f64k.bin chunks=1024 open_attempts=1 retry_rounds=1 retys_sent=9 missing_final=0 dur_ms=4015 ok=true outcome="ok"
+Missing 38 chunks, retrying (round 1)
+Missing 1 chunks, retrying (round 2)
+FETCH_STATS file=f256k.bin chunks=4096 open_attempts=1 retry_rounds=2 retys_sent=39 missing_final=0 dur_ms=6063 ok=true outcome="ok"
+Missing 38 chunks, retrying (round 1)
+Missing 1 chunks, retrying (round 2)
+FETCH_STATS file=f256k.bin chunks=4096 open_attempts=1 retry_rounds=2 retys_sent=39 missing_final=0 dur_ms=6058 ok=true outcome="ok"
+Missing 38 chunks, retrying (round 1)
+Missing 1 chunks, retrying (round 2)
+FETCH_STATS file=f256k.bin chunks=4096 open_attempts=1 retry_rounds=2 retys_sent=39 missing_final=0 dur_ms=6066 ok=true outcome="ok"
+Missing 179 chunks, retrying (round 1)
+Missing 130 chunks, retrying (round 2)
+Missing 85 chunks, retrying (round 3)
+Missing 42 chunks, retrying (round 4)
+Missing 2 chunks, retrying (round 5)
+FETCH_STATS file=f1m.bin chunks=16384 open_attempts=1 retry_rounds=5 retys_sent=438 missing_final=0 dur_ms=12256 ok=true outcome="ok"
+Missing 173 chunks, retrying (round 1)
+Missing 122 chunks, retrying (round 2)
+Missing 78 chunks, retrying (round 3)
+Missing 37 chunks, retrying (round 4)
+FETCH_STATS file=f1m.bin chunks=16384 open_attempts=1 retry_rounds=4 retys_sent=410 missing_final=0 dur_ms=10210 ok=true outcome="ok"
+Missing 158 chunks, retrying (round 1)
+Missing 112 chunks, retrying (round 2)
+Missing 61 chunks, retrying (round 3)
+Missing 21 chunks, retrying (round 4)
+FETCH_STATS file=f1m.bin chunks=16384 open_attempts=1 retry_rounds=4 retys_sent=352 missing_final=0 dur_ms=10187 ok=true outcome="ok"

@@ -1,0 +1,56 @@
+[2026-11-01 18:35:33,594] Utkarshs-MacBook-Pro/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-01 18:35:33,613] Utkarshs-MacBook-Pro/INFO/locust.runners: Shape test starting.
+[2026-11-01 18:35:33,617] Utkarshs-MacBook-Pro/INFO/locust.runners: Shape worker starting
+[2026-11-01 18:35:33,618] Utkarshs-MacBook-Pro/INFO/locust.runners: Shape test updating to 5 users at 5.00 spawn rate
+[2026-11-01 18:35:33,618] Utkarshs-MacBook-Pro/INFO/locust.runners: Ramping to 5 users at a rate of 5.00 per second
+[2026-11-01 18:35:33,620] Utkarshs-MacBook-Pro/INFO/locust.runners: All users spawned: {"FileUser": 5} (5 total users)
+[2026-11-01 18:37:33,824] Utkarshs-MacBook-Pro/INFO/locust.runners: Shape test updating to 40 users at 2.00 spawn rate
+[2026-11-01 18:37:33,827] Utkarshs-MacBook-Pro/INFO/locust.runners: Ramping to 40 users at a rate of 2.00 per second
+[2026-11-01 18:37:50,910] Utkarshs-MacBook-Pro/INFO/locust.runners: All users spawned: {"FileUser": 40} (40 total users)
+[2026-11-01 18:47:34,495] Utkarshs-MacBook-Pro/INFO/locust.runners: Shape test updating to 1 users at 5.00 spawn rate
+[2026-11-01 18:47:34,498] Utkarshs-MacBook-Pro/INFO/locust.runners: Ramping to 1 users at a rate of 5.00 per second
+[2026-11-01 18:47:41,547] Utkarshs-MacBook-Pro/INFO/locust.runners: All users spawned: {"FileUser": 1} (1 total users)
+[2026-11-01 19:03:34,014] Utkarshs-MacBook-Pro/INFO/locust.runners: Shape test stopping
+[2026-11-01 19:03:34,965] Utkarshs-MacBook-Pro/INFO/locust.main: Shape test completed, shutting down
+[2026-11-01 19:03:35,698] Utkarshs-MacBook-Pro/INFO/locust.main: Shutting down (exit code 1)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+GET      /files                                                                          3683 1839(49.93%) |   6358    2125   21216   5100 |    2.19        1.09
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      3683 1839(49.93%) |   6358    2125   21216   5100 |    2.19        1.09
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+GET      /files                                                                               5100   6400   6900   7000   9500  14000  18000  18000  20000  21000  21000   3683
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                           5100   6400   6900   7000   9500  14000  18000  18000  20000  21000  21000   3683
+
+Error report
+# occurrences      Error                                                                                               
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+169                GET /files: HTTP 504                                                                                
+1670               GET /files: HTTP 503                                                                                
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 912, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/Users/utkarshsharma/Desktop/Scabale-System-Go/.venv-midterm/lib/python3.14/site-packages/locust/stats.py", line 1170, in stats_writer
+    self.requests_csv_filehandle.seek(requests_csv_data_start)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: I/O operation on closed file.
+2026-11-02T00:03:36Z <Greenlet at 0x103d1d4e0: <bound method StatsCSVFileWriter.stats_writer of <locust.stats.StatsCSVFileWriter object at 0x103d44ad0>>> failed with ValueError
+
+[2026-11-01 19:03:36,726] Utkarshs-MacBook-Pro/CRITICAL/locust.main: Unhandled exception in greenlet: <Greenlet at 0x103d1d4e0: <bound method StatsCSVFileWriter.stats_writer of <locust.stats.StatsCSVFileWriter object at 0x103d44ad0>>>
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 912, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/Users/utkarshsharma/Desktop/Scabale-System-Go/.venv-midterm/lib/python3.14/site-packages/locust/stats.py", line 1170, in stats_writer
+    self.requests_csv_filehandle.seek(requests_csv_data_start)
+    ^^^^^^^
+ValueError: I/O operation on closed file.
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp3_cloudwatch.json
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp3_scaling_activities.json
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp3_gateway_fetch_stats.csv (2 rows)
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp3_backend_stats.csv (1 rows)
+EXP3_DONE
+EXP3_EXIT=0

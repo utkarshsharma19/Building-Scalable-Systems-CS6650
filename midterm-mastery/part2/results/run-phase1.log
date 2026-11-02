@@ -1,0 +1,44 @@
+exp1_s0_r0 f1k.bin    rep=0 status=200    2.30s sha_ok=True
+exp1_s0_r0 f1k.bin    rep=1 status=200    4.26s sha_ok=True
+exp1_s0_r0 f1k.bin    rep=2 status=200    2.23s sha_ok=True
+exp1_s0_r0 f1k.bin    rep=3 status=200    2.24s sha_ok=True
+exp1_s0_r0 f1k.bin    rep=4 status=200    2.24s sha_ok=True
+exp1_s0_r0 f1k.bin    rep=5 status=200    2.25s sha_ok=True
+exp1_s0_r0 f1k.bin    rep=6 status=200    2.22s sha_ok=True
+exp1_s0_r0 f1k.bin    rep=7 status=200    6.24s sha_ok=True
+exp1_s0_r0 f16k.bin   rep=0 status=200    2.37s sha_ok=True
+exp1_s0_r0 f16k.bin   rep=1 status=200    2.33s sha_ok=True
+exp1_s0_r0 f16k.bin   rep=2 status=200    4.42s sha_ok=True
+exp1_s0_r0 f16k.bin   rep=3 status=200    4.40s sha_ok=True
+exp1_s0_r0 f16k.bin   rep=4 status=200    2.32s sha_ok=True
+exp1_s0_r0 f16k.bin   rep=5 status=200    6.57s sha_ok=True
+exp1_s0_r0 f16k.bin   rep=6 status=200    2.37s sha_ok=True
+exp1_s0_r0 f16k.bin   rep=7 status=200    2.35s sha_ok=True
+exp1_s0_r0 f64k.bin   rep=0 status=504   13.36s sha_ok=False
+exp1_s0_r0 f64k.bin   rep=1 status=504   13.19s sha_ok=False
+exp1_s0_r0 f64k.bin   rep=2 status=504   13.40s sha_ok=False
+exp1_s0_r0 f64k.bin   rep=3 status=200   11.14s sha_ok=True
+exp1_s0_r0 f64k.bin   rep=4 status=200    4.45s sha_ok=True
+exp1_s0_r0 f64k.bin   rep=5 status=200   11.11s sha_ok=True
+exp1_s0_r0 f64k.bin   rep=6 status=200    2.46s sha_ok=True
+exp1_s0_r0 f64k.bin   rep=7 status=200    2.44s sha_ok=True
+exp1_s0_r0 f256k.bin  rep=0 status=504   14.99s sha_ok=False
+exp1_s0_r0 f256k.bin  rep=1 status=504   14.74s sha_ok=False
+exp1_s0_r0 f256k.bin  rep=2 status=504   14.95s sha_ok=False
+exp1_s0_r0 f256k.bin  rep=3 status=504   14.89s sha_ok=False
+exp1_s0_r0 f256k.bin  rep=4 status=200    5.05s sha_ok=True
+exp1_s0_r0 f256k.bin  rep=5 status=504   14.76s sha_ok=False
+exp1_s0_r0 f256k.bin  rep=6 status=504   14.91s sha_ok=False
+exp1_s0_r0 f256k.bin  rep=7 status=200    4.96s sha_ok=True
+exp1_s0_r0 f1m.bin    rep=0 status=504   19.33s sha_ok=False
+exp1_s0_r0 f1m.bin    rep=1 status=200    5.95s sha_ok=True
+exp1_s0_r0 f1m.bin    rep=2 status=504   20.04s sha_ok=False
+exp1_s0_r0 f1m.bin    rep=3 status=504   19.85s sha_ok=False
+exp1_s0_r0 f1m.bin    rep=4 status=504   19.40s sha_ok=False
+exp1_s0_r0 f1m.bin    rep=5 status=504   19.50s sha_ok=False
+exp1_s0_r0 f1m.bin    rep=6 status=200    9.89s sha_ok=True
+exp1_s0_r0 f1m.bin    rep=7 status=504   20.56s sha_ok=False
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp1_s0_r0_gateway_fetch_stats.csv (8 rows)
+
+aws: [ERROR]: An error occurred (MalformedQueryException) when calling the StartQuery operation: Ephemeral field is already defined: opens ([315,333]) (Service: AWSLogs; Status Code: 400; Error Code: MalformedQueryException; Request ID: 859447a0-e0c8-44dd-ae4c-696d2ff60af5; Proxy: null)
+PHASE1_EXIT=254

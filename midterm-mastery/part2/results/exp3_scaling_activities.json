@@ -1,0 +1,58 @@
+[
+    {
+        "t": "2026-11-01T19:04:28.642000-05:00",
+        "res": "service/file-transfer/gateway",
+        "desc": "Setting desired count to 3.",
+        "cause": "monitor alarm TargetTracking-service/file-transfer/gateway-AlarmLow-6d19f3f5-11a3-4c8a-ace1-038bfba1b809 in state ALARM triggered policy gateway-requests-per-target",
+        "status": "Successful"
+    },
+    {
+        "t": "2026-11-01T18:43:07.715000-05:00",
+        "res": "service/file-transfer/gateway",
+        "desc": "Setting desired count to 4.",
+        "cause": "monitor alarm TargetTracking-service/file-transfer/gateway-AlarmHigh-05e344c3-1c64-40db-9b95-50664d305b6e in state ALARM triggered policy gateway-requests-per-target",
+        "status": "Successful"
+    },
+    {
+        "t": "2026-10-26T10:54:28.217000-04:00",
+        "res": "service/product-search-cluster/product-search",
+        "desc": "Setting desired count to 2.",
+        "cause": "monitor alarm TargetTracking-service/product-search-cluster/product-search-AlarmLow-b6e4e411-0ca7-488f-b438-7464f98f8444 in state ALARM triggered policy product-search-cpu-target",
+        "status": "Successful"
+    },
+    {
+        "t": "2026-10-26T10:52:28.249000-04:00",
+        "res": "service/product-search-cluster/product-search",
+        "desc": "Setting desired count to 3.",
+        "cause": "monitor alarm TargetTracking-service/product-search-cluster/product-search-AlarmLow-b6e4e411-0ca7-488f-b438-7464f98f8444 in state ALARM triggered policy product-search-cpu-target",
+        "status": "Successful"
+    },
+    {
+        "t": "2026-10-26T10:27:10.436000-04:00",
+        "res": "service/product-search-cluster/product-search",
+        "desc": "Setting desired count to 4.",
+        "cause": "monitor alarm TargetTracking-service/product-search-cluster/product-search-AlarmHigh-e6fd92aa-0fa2-431b-b636-0146782133c9 in state ALARM triggered policy product-search-cpu-target",
+        "status": "Successful"
+    },
+    {
+        "t": "2026-10-26T10:24:10.459000-04:00",
+        "res": "service/product-search-cluster/product-search",
+        "desc": "Setting desired count to 3.",
+        "cause": "monitor alarm TargetTracking-service/product-search-cluster/product-search-AlarmHigh-e6fd92aa-0fa2-431b-b636-0146782133c9 in state ALARM triggered policy product-search-cpu-target",
+        "status": "Successful"
+    },
+    {
+        "t": "2026-10-26T09:55:53.397000-04:00",
+        "res": "service/product-search-cluster/product-search",
+        "desc": "Setting desired count to 3.",
+        "cause": "monitor alarm TargetTracking-service/product-search-cluster/product-search-AlarmHigh-c405f2ea-faf5-4369-b04b-75684ca3754e in state ALARM triggered policy product-search-cpu-target",
+        "status": "Successful"
+    },
+    {
+        "t": "2026-10-26T09:22:53.382000-04:00",
+        "res": "service/product-search-cluster/product-search",
+        "desc": "Setting desired count to 3.",
+        "cause": "monitor alarm TargetTracking-service/product-search-cluster/product-search-AlarmHigh-c405f2ea-faf5-4369-b04b-75684ca3754e in state ALARM triggered policy product-search-cpu-target",
+        "status": "Successful"
+    }
+]

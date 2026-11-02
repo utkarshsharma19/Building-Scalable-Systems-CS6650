@@ -1,0 +1,2735 @@
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (73 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1k.bin" chunk 16
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1k.bin"
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (72 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (73 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1k.bin" chunk 16
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1k.bin" chunk 9
+BACKEND_STATS opens=3 retys=3 source_fetches=6 avg_fetch_ms=0 datagrams_sent=51 overload_drops=0 queue_high=0 queue_cap=32
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f16k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (74 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (74 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (75 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f16k.bin" chunk 115
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f16k.bin" chunk 95
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f16k.bin" chunk 19
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f16k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (75 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f16k.bin" chunk 169
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f16k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (73 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (74 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (74 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (75 bytes)
+BACKEND_STATS opens=3 retys=4 source_fetches=7 avg_fetch_ms=0 datagrams_sent=772 overload_drops=0 queue_high=0 queue_cap=32
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f16k.bin" chunk 123
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f16k.bin" chunk 72
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f16k.bin" chunk 90
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f16k.bin" chunk 2
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f64k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 135
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 237
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 546
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 131
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 529
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 471
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 701
+DEBUG: Processing RETY for file: "f64k.bin" chunk 425
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 487
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 582
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 661
+DEBUG: Processing RETY for file: "f64k.bin" chunk 368
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 820
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 855
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 1004
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f64k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 825
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 351
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 624
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 313
+BACKEND_STATS opens=2 retys=23 source_fetches=25 avg_fetch_ms=0 datagrams_sent=2071 overload_drops=0 queue_high=7 queue_cap=32
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f64k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 106
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 149
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 408
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 697
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 942
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 630
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 1016
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f64k.bin" chunk 791
+DEBUG: Processing RETY for file: "f64k.bin" chunk 368
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f256k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (74 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 661
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 297
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 429
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 626
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 154
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 215
+DEBUG: Processing RETY for file: "f256k.bin" chunk 8
+DEBUG: Processing RETY for file: "f256k.bin" chunk 310
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 844
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 869
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 930
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1076
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1390
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1421
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1439
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1443
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1470
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1751
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1816
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1901
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1960
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2077
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1411
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2437
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2326
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2535
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2549
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2636
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2705
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2817
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2830
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2851
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2936
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3103
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3339
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3735
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3378
+DEBUG: Processing RETY for file: "f256k.bin" chunk 4072
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3339
+BACKEND_STATS opens=2 retys=48 source_fetches=50 avg_fetch_ms=0 datagrams_sent=5168 overload_drops=0 queue_high=30 queue_cap=32
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f256k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 730
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 607
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 389
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 376
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 908
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1196
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 742
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1047
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1211
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1248
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1294
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1381
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1419
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1331
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1427
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1643
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1663
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1861
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1986
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2032
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2003
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1978
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2448
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2565
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2628
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2843
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2870
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2940
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2653
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3257
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2670
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3301
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3381
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3420
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3648
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3687
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3953
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 4017
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2670
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f256k.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (75 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 13
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 805
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 923
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 481
+DEBUG: Processing RETY for file: "f256k.bin" chunk 519
+DEBUG: Processing RETY for file: "f256k.bin" chunk 387
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 830
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1095
+DEBUG: Processing RETY for file: "f256k.bin" chunk 793
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1136
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1184
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1240
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1363
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1435
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1560
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1784
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 1645
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2146
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2307
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2455
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2533
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2557
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2632
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2470
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2449
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2697
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2899
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2935
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 2946
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3011
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3551
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3713
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3866
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3975
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3875
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 3864
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 4039
+DEBUG: Processing RETY for file: "f256k.bin" chunk 4008
+BACKEND_STATS opens=2 retys=77 source_fetches=79 avg_fetch_ms=0 datagrams_sent=8269 overload_drops=0 queue_high=30 queue_cap=32
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f256k.bin" chunk 923
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1m.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 52
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 99
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 573
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 703
+DEBUG: Processing RETY for file: "f1m.bin" chunk 461
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 348
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 641
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 234
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 704
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 759
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 760
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1023
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1333
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1003
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1488
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1001
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1489
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1610
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1649
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1713
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1741
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1680
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1880
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1867
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1987
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2002
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2056
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2086
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2140
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2173
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2250
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2417
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2708
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2444
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2737
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2742
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2772
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2863
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3146
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3209
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7577
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7767
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10502
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10746
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10776
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10800
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11509
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12851
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11046
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3220
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3767
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3659
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3785
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3432
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3364
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3357
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3310
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3705
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4025
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3838
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4148
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4242
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4280
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4285
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3363
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4340
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5236
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5340
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5409
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5435
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5501
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5524
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5578
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5669
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5797
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5859
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5605
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5809
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5719
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6401
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6016
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6436
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6446
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6533
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6589
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6677
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6575
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14396
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14523
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6503
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6726
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15537
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14636
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15918
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 16094
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7905
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7553
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7085
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6868
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7327
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6738
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7425
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3220
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7909
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8014
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8176
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8024
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7986
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8214
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8325
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8499
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8543
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8559
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8671
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8743
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8754
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8943
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9042
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9190
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9289
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9400
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9402
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9782
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9750
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9914
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9922
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9938
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10197
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10370
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10415
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10482
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10494
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10587
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11038
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11504
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12597
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14716
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14588
+BACKEND_STATS opens=1 retys=139 source_fetches=140 avg_fetch_ms=1 datagrams_sent=16523 overload_drops=256 queue_high=32 queue_cap=32
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12035
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11985
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11718
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11659
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11701
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11997
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11668
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11966
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12226
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12251
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12319
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12431
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12352
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12627
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12640
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13131
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13170
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13268
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13455
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13492
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13643
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13856
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13789
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13701
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13976
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13981
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13985
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14026
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14199
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14331
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14558
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14228
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14799
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14305
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14393
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15034
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15111
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15246
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15371
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15412
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 16255
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 16038
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1m.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 161
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 61
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 201
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 125
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 146
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 483
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 253
+DEBUG: Processing RETY for file: "f1m.bin" chunk 436
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 619
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 630
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 710
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 720
+DEBUG: Processing RETY for file: "f1m.bin" chunk 634
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 756
+DEBUG: Processing RETY for file: "f1m.bin" chunk 870
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 954
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 960
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1021
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1085
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1138
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1142
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1215
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1482
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1548
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1757
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1785
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2026
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1924
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2011
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2156
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2178
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2233
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2282
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2302
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2335
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2381
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2393
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2751
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2810
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2847
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10131
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10607
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10519
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11941
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12118
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12378
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12416
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12552
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13677
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12637
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12932
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2866
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3023
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3210
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3420
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3367
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3221
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2939
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3227
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2892
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3069
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3566
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3666
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3688
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3876
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3779
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3897
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3962
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4066
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4319
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4424
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4767
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4845
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4855
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5030
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4890
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5097
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5129
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5179
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5196
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5345
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5403
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5419
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5462
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5481
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5629
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5645
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5918
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5987
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6004
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6088
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8486
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8508
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13921
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14594
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9656
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14279
+BACKEND_STATS opens=1 retys=139 source_fetches=140 avg_fetch_ms=1 datagrams_sent=16523 overload_drops=200 queue_high=32 queue_cap=32
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2892
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6234
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6096
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6213
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3962
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6748
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7052
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6617
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6697
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7065
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7085
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6469
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7126
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7283
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7334
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7577
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7767
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7957
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8196
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8303
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8315
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8342
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8363
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8431
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8752
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8945
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9115
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9182
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9312
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9377
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9414
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9357
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9464
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9490
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9551
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9724
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10022
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10289
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11019
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11042
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13914
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11217
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11424
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11949
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12602
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12872
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11650
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11512
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11922
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12911
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13069
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13114
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13417
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13399
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13227
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13476
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13641
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14039
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14288
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14327
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14341
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14771
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14477
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15037
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14894
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15104
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15246
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15326
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15428
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15444
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15541
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15649
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15691
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15697
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15853
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15863
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 16200
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 16326
+DEBUG: Processing command "OPEN"
+DEBUG: Processing OPEN for file: "f1m.bin"
+DEBUG: Simulated loss: dropped outgoing datagram (76 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (77 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Simulated loss: dropped outgoing datagram (79 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 225
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 52
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 323
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 198
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 645
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 596
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 148
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1038
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1090
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1099
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1103
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1232
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1257
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1075
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1345
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1752
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1685
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1859
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1965
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1525
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1638
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 1966
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2037
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2075
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2340
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2342
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2452
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2707
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2852
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2796
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2828
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 2999
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3015
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3017
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3036
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3140
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3335
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3383
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3403
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3540
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10224
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7571
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10929
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13090
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12809
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13165
+BACKEND_STATS opens=1 retys=124 source_fetches=125 avg_fetch_ms=1 datagrams_sent=16508 overload_drops=149 queue_high=32 queue_cap=32
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3558
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3822
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4115
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3953
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 3754
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4145
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4063
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4011
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4186
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4196
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4301
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4554
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4848
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4690
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5000
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5280
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 4942
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5360
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5378
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5531
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 5960
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6039
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6097
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6005
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6059
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6271
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6759
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 6862
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7047
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7091
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7141
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7234
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7406
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7596
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7734
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7760
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7787
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7791
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7921
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12566
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13167
+DEBUG: Processing RETY for file: "f1m.bin" chunk 7934
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12498
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13264
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13282
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14154
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13374
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15140
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15361
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15496
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 16286
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9075
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8249
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8739
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8286
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8118
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8058
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8355
+DEBUG: Processing command "RETY"
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing RETY for file: "f1m.bin" chunk 8631
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Overloaded: dropped incoming datagram
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9173
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9207
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9255
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9272
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9279
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9361
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9403
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9825
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9910
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10007
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9931
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10108
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10238
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10270
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10265
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10359
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10571
+DEBUG: Simulated loss: dropped outgoing datagram (78 bytes)
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10848
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 10892
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11185
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11198
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11229
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11291
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 11453
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12091
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12176
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12192
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12353
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12356
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12540
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12762
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 12835
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14029
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 13195
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14497
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14316
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14450
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 9910
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14428
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14486
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14266
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14527
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14681
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14890
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 14963
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15130
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15551
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15406
+DEBUG: Processing command "RETY"
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15487
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15705
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15833
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15834
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 15939
+DEBUG: Processing command "RETY"
+DEBUG: Processing RETY for file: "f1m.bin" chunk 16365
+BACKEND_STATS opens=0 retys=113 source_fetches=113 avg_fetch_ms=0 datagrams_sent=113 overload_drops=81 queue_high=32 queue_cap=32

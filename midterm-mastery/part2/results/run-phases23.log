@@ -1,0 +1,282 @@
+### Exp2: MAX_INFLIGHT=4
+  cluster:  file-transfer (region us-west-2)
+  images:   tag 20261101190622
+
+Next steps:
+  upload a file:   aws s3 cp ./my-file.txt s3://file-transfer-641970357258-us/tmp/my-file.txt
+  fetch it:        curl -o out.txt "http://file-transfer-gateway-1000165685.us-west-2.elb.amazonaws.com/files?name=my-file.txt"
+  run your own experiments
+  tear it down:    scripts/destroy.sh --yes
+== exp2_inflight4_u10 (start 1793578368)
+[2026-11-01 19:16:12,208] Utkarshs-MacBook-Pro/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-01 19:16:12,219] Utkarshs-MacBook-Pro/INFO/locust.main: Run time limit set to 180 seconds
+[2026-11-01 19:16:12,223] Utkarshs-MacBook-Pro/INFO/locust.runners: Ramping to 10 users at a rate of 10.00 per second
+[2026-11-01 19:16:12,225] Utkarshs-MacBook-Pro/INFO/locust.runners: All users spawned: {"FileUser": 10} (10 total users)
+[2026-11-01 19:16:33,200] Utkarshs-MacBook-Pro/INFO/locust.main: --run-time limit reached, shutting down
+[2026-11-01 19:16:36,820] Utkarshs-MacBook-Pro/INFO/locust.main: Shutting down (exit code 0)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+GET      /files                                                                            43     0(0.00%) |   3373    2123    9363   2800 |    1.82        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        43     0(0.00%) |   3373    2123    9363   2800 |    1.82        0.00
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+GET      /files                                                                               2800   3700   4200   4300   5400   6700   9400   9400   9400   9400   9400     43
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                           2800   3700   4200   4300   5400   6700   9400   9400   9400   9400   9400     43
+
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp2_inflight4_u10_gateway_fetch_stats.csv (1 rows)
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp2_inflight4_u10_backend_stats.csv (1 rows)
+== exp2_inflight4_u40 (start 1793578674)
+[2026-11-01 19:17:54,485] Utkarshs-MacBook-Pro/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-01 19:17:54,489] Utkarshs-MacBook-Pro/INFO/locust.main: Run time limit set to 180 seconds
+[2026-11-01 19:17:54,489] Utkarshs-MacBook-Pro/INFO/locust.runners: Ramping to 40 users at a rate of 40.00 per second
+[2026-11-01 19:17:54,491] Utkarshs-MacBook-Pro/INFO/locust.runners: All users spawned: {"FileUser": 40} (40 total users)
+[2026-11-01 19:20:54,260] Utkarshs-MacBook-Pro/INFO/locust.main: --run-time limit reached, shutting down
+[2026-11-01 19:20:58,585] Utkarshs-MacBook-Pro/INFO/locust.main: Shutting down (exit code 1)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+GET      /files                                                                          1116  530(47.49%) |   5968    2347   14008   5700 |    6.10        2.90
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1116  530(47.49%) |   5968    2347   14008   5700 |    6.10        2.90
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+GET      /files                                                                               5700   6200   6400   6700   7100   8600  10000  11000  12000  14000  14000   1116
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                           5700   6200   6400   6700   7100   8600  10000  11000  12000  14000  14000   1116
+
+Error report
+# occurrences      Error                                                                                               
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+530                GET /files: HTTP 503                                                                                
+------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 912, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/Users/utkarshsharma/Desktop/Scabale-System-Go/.venv-midterm/lib/python3.14/site-packages/locust/stats.py", line 1170, in stats_writer
+    self.requests_csv_filehandle.seek(requests_csv_data_start)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: I/O operation on closed file.
+2026-11-02T00:21:05Z <Greenlet at 0x104a211c0: <bound method StatsCSVFileWriter.stats_writer of <locust.stats.StatsCSVFileWriter object at 0x104a44980>>> failed with ValueError
+
+[2026-11-01 19:21:05,803] Utkarshs-MacBook-Pro/CRITICAL/locust.main: Unhandled exception in greenlet: <Greenlet at 0x104a211c0: <bound method StatsCSVFileWriter.stats_writer of <locust.stats.StatsCSVFileWriter object at 0x104a44980>>>
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 912, in gevent._gevent_cgreenlet.Greenlet.run
+  File "/Users/utkarshsharma/Desktop/Scabale-System-Go/.venv-midterm/lib/python3.14/site-packages/locust/stats.py", line 1170, in stats_writer
+    self.requests_csv_filehandle.seek(requests_csv_data_start)
+    ^^^^^^^
+ValueError: I/O operation on closed file.
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp2_inflight4_u40_gateway_fetch_stats.csv (1 rows)
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp2_inflight4_u40_backend_stats.csv (1 rows)
+### Exp2: MAX_INFLIGHT=16
+  cluster:  file-transfer (region us-west-2)
+  images:   tag 20261101192402
+
+Next steps:
+  upload a file:   aws s3 cp ./my-file.txt s3://file-transfer-641970357258-us/tmp/my-file.txt
+  fetch it:        curl -o out.txt "http://file-transfer-gateway-1000165685.us-west-2.elb.amazonaws.com/files?name=my-file.txt"
+  run your own experiments
+  tear it down:    scripts/destroy.sh --yes
+== exp2_inflight16_u10 (start 1793579563)
+[2026-11-01 19:35:43,572] Utkarshs-MacBook-Pro/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-01 19:35:43,582] Utkarshs-MacBook-Pro/INFO/locust.main: Run time limit set to 180 seconds
+[2026-11-01 19:35:43,585] Utkarshs-MacBook-Pro/INFO/locust.runners: Ramping to 10 users at a rate of 10.00 per second
+[2026-11-01 19:35:43,588] Utkarshs-MacBook-Pro/INFO/locust.runners: All users spawned: {"FileUser": 10} (10 total users)
+[2026-11-01 19:36:27,206] Utkarshs-MacBook-Pro/INFO/locust.main: --run-time limit reached, shutting down
+[2026-11-01 19:36:28,990] Utkarshs-MacBook-Pro/INFO/locust.main: Shutting down (exit code 0)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+GET      /files                                                                           115     0(0.00%) |   2921    2127    9537   2127 |    2.56        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                       115     0(0.00%) |   2921    2127    9537   2127 |    2.56        0.00
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+GET      /files                                                                               2100   2200   2500   4200   4300   7300   8500   8600   9500   9500   9500    115
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                           2100   2200   2500   4200   4300   7300   8500   8600   9500   9500   9500    115
+
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp2_inflight16_u10_gateway_fetch_stats.csv (1 rows)
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp2_inflight16_u10_backend_stats.csv (1 rows)
+== exp2_inflight16_u40 (start 1793579949)
+[2026-11-01 19:42:46,819] Utkarshs-MacBook-Pro/INFO/locust.main: Starting Locust 2.47.0
+[2026-11-01 19:42:46,833] Utkarshs-MacBook-Pro/INFO/locust.main: Run time limit set to 180 seconds
+[2026-11-01 19:42:46,840] Utkarshs-MacBook-Pro/INFO/locust.runners: Ramping to 40 users at a rate of 40.00 per second
+[2026-11-01 19:42:46,846] Utkarshs-MacBook-Pro/INFO/locust.runners: All users spawned: {"FileUser": 40} (40 total users)
+[2026-11-01 19:43:00,897] Utkarshs-MacBook-Pro/INFO/locust.main: --run-time limit reached, shutting down
+[2026-11-01 19:43:02,801] Utkarshs-MacBook-Pro/INFO/locust.main: Shutting down (exit code 0)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+GET      /files                                                                            22     0(0.00%) |   2412    2379    2466   2400 |    1.60        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        22     0(0.00%) |   2412    2379    2466   2400 |    1.60        0.00
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+GET      /files                                                                               2400   2400   2500   2500   2500   2500   2500   2500   2500   2500   2500     22
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                           2400   2400   2500   2500   2500   2500   2500   2500   2500   2500   2500     22
+
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp2_inflight16_u40_gateway_fetch_stats.csv (1 rows)
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp2_inflight16_u40_backend_stats.csv (1 rows)
+### Exp1: send_loss=1 recv_loss=0
+  cluster:  file-transfer (region us-west-2)
+  images:   tag 20261101194538
+
+Next steps:
+  upload a file:   aws s3 cp ./my-file.txt s3://file-transfer-641970357258-us/tmp/my-file.txt
+  fetch it:        curl -o out.txt "http://file-transfer-gateway-1000165685.us-west-2.elb.amazonaws.com/files?name=my-file.txt"
+  run your own experiments
+  tear it down:    scripts/destroy.sh --yes
+exp1_s1_r0 f1k.bin    rep=0 status=200    2.30s sha_ok=True
+exp1_s1_r0 f1k.bin    rep=1 status=200    2.39s sha_ok=True
+exp1_s1_r0 f1k.bin    rep=2 status=200    2.34s sha_ok=True
+exp1_s1_r0 f1k.bin    rep=3 status=200    2.26s sha_ok=True
+exp1_s1_r0 f1k.bin    rep=4 status=200    2.23s sha_ok=True
+exp1_s1_r0 f1k.bin    rep=5 status=200    2.31s sha_ok=True
+exp1_s1_r0 f1k.bin    rep=6 status=200    2.23s sha_ok=True
+exp1_s1_r0 f1k.bin    rep=7 status=200    2.28s sha_ok=True
+exp1_s1_r0 f16k.bin   rep=0 status=200    4.37s sha_ok=True
+exp1_s1_r0 f16k.bin   rep=1 status=200    4.53s sha_ok=True
+exp1_s1_r0 f16k.bin   rep=2 status=200    4.64s sha_ok=True
+exp1_s1_r0 f16k.bin   rep=3 status=200    4.58s sha_ok=True
+exp1_s1_r0 f16k.bin   rep=4 status=200    4.36s sha_ok=True
+exp1_s1_r0 f16k.bin   rep=5 status=200    4.45s sha_ok=True
+exp1_s1_r0 f16k.bin   rep=6 status=200    4.37s sha_ok=True
+exp1_s1_r0 f16k.bin   rep=7 status=200    4.41s sha_ok=True
+exp1_s1_r0 f64k.bin   rep=0 status=200    4.52s sha_ok=True
+exp1_s1_r0 f64k.bin   rep=1 status=200    8.98s sha_ok=True
+exp1_s1_r0 f64k.bin   rep=2 status=200    9.04s sha_ok=True
+exp1_s1_r0 f64k.bin   rep=3 status=200    4.61s sha_ok=True
+exp1_s1_r0 f64k.bin   rep=4 status=200    9.06s sha_ok=True
+exp1_s1_r0 f64k.bin   rep=5 status=200  102.32s sha_ok=True
+exp1_s1_r0 f64k.bin   rep=6 status=200    7.11s sha_ok=True
+exp1_s1_r0 f64k.bin   rep=7 status=200    6.77s sha_ok=True
+exp1_s1_r0 f256k.bin  rep=0 status=504   14.86s sha_ok=False
+exp1_s1_r0 f256k.bin  rep=1 status=504   14.54s sha_ok=False
+exp1_s1_r0 f256k.bin  rep=2 status=504   14.62s sha_ok=False
+exp1_s1_r0 f256k.bin  rep=3 status=504   65.96s sha_ok=False
+exp1_s1_r0 f256k.bin  rep=4 status=504   14.95s sha_ok=False
+exp1_s1_r0 f256k.bin  rep=5 status=504   14.72s sha_ok=False
+exp1_s1_r0 f256k.bin  rep=6 status=EXC:ReadTimeout 1079.29s sha_ok=False
+exp1_s1_r0 f256k.bin  rep=7 status=504   14.97s sha_ok=False
+exp1_s1_r0 f1m.bin    rep=0 status=504   19.25s sha_ok=False
+exp1_s1_r0 f1m.bin    rep=1 status=504   18.99s sha_ok=False
+exp1_s1_r0 f1m.bin    rep=2 status=504   18.90s sha_ok=False
+exp1_s1_r0 f1m.bin    rep=3 status=504   19.30s sha_ok=False
+exp1_s1_r0 f1m.bin    rep=4 status=504   19.15s sha_ok=False
+exp1_s1_r0 f1m.bin    rep=5 status=504   18.95s sha_ok=False
+exp1_s1_r0 f1m.bin    rep=6 status=504   19.11s sha_ok=False
+exp1_s1_r0 f1m.bin    rep=7 status=504   19.31s sha_ok=False
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp1_s1_r0_gateway_fetch_stats.csv (5 rows)
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp1_s1_r0_backend_stats.csv (1 rows)
+### Exp1: send_loss=5 recv_loss=0
+  cluster:  file-transfer (region us-west-2)
+  images:   tag 20261101205147
+
+Next steps:
+  upload a file:   aws s3 cp ./my-file.txt s3://file-transfer-641970357258-us/tmp/my-file.txt
+  fetch it:        curl -o out.txt "http://file-transfer-gateway-1000165685.us-west-2.elb.amazonaws.com/files?name=my-file.txt"
+  run your own experiments
+  tear it down:    scripts/destroy.sh --yes
+exp1_s5_r0 f1k.bin    rep=0 status=200    4.40s sha_ok=True
+exp1_s5_r0 f1k.bin    rep=1 status=200    2.27s sha_ok=True
+exp1_s5_r0 f1k.bin    rep=2 status=200    4.26s sha_ok=True
+exp1_s5_r0 f1k.bin    rep=3 status=200    4.26s sha_ok=True
+exp1_s5_r0 f1k.bin    rep=4 status=200    2.29s sha_ok=True
+exp1_s5_r0 f1k.bin    rep=5 status=200    4.28s sha_ok=True
+exp1_s5_r0 f1k.bin    rep=6 status=200    4.28s sha_ok=True
+exp1_s5_r0 f1k.bin    rep=7 status=200    2.25s sha_ok=True
+exp1_s5_r0 f16k.bin   rep=0 status=200    4.39s sha_ok=True
+exp1_s5_r0 f16k.bin   rep=1 status=200    8.46s sha_ok=True
+exp1_s5_r0 f16k.bin   rep=2 status=200    4.49s sha_ok=True
+exp1_s5_r0 f16k.bin   rep=3 status=200    4.51s sha_ok=True
+exp1_s5_r0 f16k.bin   rep=4 status=200    6.55s sha_ok=True
+exp1_s5_r0 f16k.bin   rep=5 status=200    6.45s sha_ok=True
+exp1_s5_r0 f16k.bin   rep=6 status=200    8.50s sha_ok=True
+exp1_s5_r0 f16k.bin   rep=7 status=200    6.45s sha_ok=True
+exp1_s5_r0 f64k.bin   rep=0 status=200    8.76s sha_ok=True
+exp1_s5_r0 f64k.bin   rep=1 status=200    8.75s sha_ok=True
+exp1_s5_r0 f64k.bin   rep=2 status=200    9.01s sha_ok=True
+exp1_s5_r0 f64k.bin   rep=3 status=200    8.90s sha_ok=True
+exp1_s5_r0 f64k.bin   rep=4 status=200   13.29s sha_ok=True
+exp1_s5_r0 f64k.bin   rep=5 status=200    6.81s sha_ok=True
+exp1_s5_r0 f64k.bin   rep=6 status=200    6.73s sha_ok=True
+exp1_s5_r0 f64k.bin   rep=7 status=200    8.92s sha_ok=True
+exp1_s5_r0 f256k.bin  rep=0 status=504   14.77s sha_ok=False
+exp1_s5_r0 f256k.bin  rep=1 status=504   14.30s sha_ok=False
+exp1_s5_r0 f256k.bin  rep=2 status=504   14.34s sha_ok=False
+exp1_s5_r0 f256k.bin  rep=3 status=504   14.95s sha_ok=False
+exp1_s5_r0 f256k.bin  rep=4 status=504   14.19s sha_ok=False
+exp1_s5_r0 f256k.bin  rep=5 status=504   14.99s sha_ok=False
+exp1_s5_r0 f256k.bin  rep=6 status=504   14.85s sha_ok=False
+exp1_s5_r0 f256k.bin  rep=7 status=504   14.44s sha_ok=False
+exp1_s5_r0 f1m.bin    rep=0 status=504   18.94s sha_ok=False
+exp1_s5_r0 f1m.bin    rep=1 status=504   18.43s sha_ok=False
+exp1_s5_r0 f1m.bin    rep=2 status=504   18.84s sha_ok=False
+exp1_s5_r0 f1m.bin    rep=3 status=504   18.84s sha_ok=False
+exp1_s5_r0 f1m.bin    rep=4 status=504   17.86s sha_ok=False
+exp1_s5_r0 f1m.bin    rep=5 status=504   17.98s sha_ok=False
+exp1_s5_r0 f1m.bin    rep=6 status=504   17.51s sha_ok=False
+exp1_s5_r0 f1m.bin    rep=7 status=504   18.12s sha_ok=False
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp1_s5_r0_gateway_fetch_stats.csv (5 rows)
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp1_s5_r0_backend_stats.csv (1 rows)
+### Exp1: send_loss=0 recv_loss=20
+  cluster:  file-transfer (region us-west-2)
+  images:   tag 20261101210615
+
+Next steps:
+  upload a file:   aws s3 cp ./my-file.txt s3://file-transfer-641970357258-us/tmp/my-file.txt
+  fetch it:        curl -o out.txt "http://file-transfer-gateway-1000165685.us-west-2.elb.amazonaws.com/files?name=my-file.txt"
+  run your own experiments
+  tear it down:    scripts/destroy.sh --yes
+exp1_s0_r20 f1k.bin    rep=0 status=200    2.38s sha_ok=True
+exp1_s0_r20 f1k.bin    rep=1 status=200    2.28s sha_ok=True
+exp1_s0_r20 f1k.bin    rep=2 status=200    2.25s sha_ok=True
+exp1_s0_r20 f1k.bin    rep=3 status=200    2.24s sha_ok=True
+exp1_s0_r20 f1k.bin    rep=4 status=200    2.26s sha_ok=True
+exp1_s0_r20 f1k.bin    rep=5 status=200    4.26s sha_ok=True
+exp1_s0_r20 f1k.bin    rep=6 status=200    2.24s sha_ok=True
+exp1_s0_r20 f1k.bin    rep=7 status=200    4.25s sha_ok=True
+exp1_s0_r20 f16k.bin   rep=0 status=200   10.85s sha_ok=True
+exp1_s0_r20 f16k.bin   rep=1 status=200    2.35s sha_ok=True
+exp1_s0_r20 f16k.bin   rep=2 status=200    4.40s sha_ok=True
+exp1_s0_r20 f16k.bin   rep=3 status=200    8.47s sha_ok=True
+exp1_s0_r20 f16k.bin   rep=4 status=200    2.33s sha_ok=True
+exp1_s0_r20 f16k.bin   rep=5 status=200    4.35s sha_ok=True
+exp1_s0_r20 f16k.bin   rep=6 status=200    8.62s sha_ok=True
+exp1_s0_r20 f16k.bin   rep=7 status=200    4.39s sha_ok=True
+exp1_s0_r20 f64k.bin   rep=0 status=200    2.56s sha_ok=True
+exp1_s0_r20 f64k.bin   rep=1 status=504   13.32s sha_ok=False
+exp1_s0_r20 f64k.bin   rep=2 status=200    2.45s sha_ok=True
+exp1_s0_r20 f64k.bin   rep=3 status=200    4.45s sha_ok=True
+exp1_s0_r20 f64k.bin   rep=4 status=200    2.58s sha_ok=True
+exp1_s0_r20 f64k.bin   rep=5 status=200    4.53s sha_ok=True
+exp1_s0_r20 f64k.bin   rep=6 status=200   13.21s sha_ok=True
+exp1_s0_r20 f64k.bin   rep=7 status=504   13.31s sha_ok=False
+exp1_s0_r20 f256k.bin  rep=0 status=504   14.85s sha_ok=False
+exp1_s0_r20 f256k.bin  rep=1 status=504   14.85s sha_ok=False
+exp1_s0_r20 f256k.bin  rep=2 status=504   14.84s sha_ok=False
+exp1_s0_r20 f256k.bin  rep=3 status=504   16.90s sha_ok=False
+exp1_s0_r20 f256k.bin  rep=4 status=504   17.22s sha_ok=False
+exp1_s0_r20 f256k.bin  rep=5 status=504   14.80s sha_ok=False
+exp1_s0_r20 f256k.bin  rep=6 status=504   16.31s sha_ok=False
+exp1_s0_r20 f256k.bin  rep=7 status=504   16.69s sha_ok=False
+exp1_s0_r20 f1m.bin    rep=0 status=504   19.03s sha_ok=False
+exp1_s0_r20 f1m.bin    rep=1 status=504   19.56s sha_ok=False
+exp1_s0_r20 f1m.bin    rep=2 status=504   21.10s sha_ok=False
+exp1_s0_r20 f1m.bin    rep=3 status=504   23.04s sha_ok=False
+exp1_s0_r20 f1m.bin    rep=4 status=504   19.14s sha_ok=False
+exp1_s0_r20 f1m.bin    rep=5 status=504   18.92s sha_ok=False
+exp1_s0_r20 f1m.bin    rep=6 status=504   18.96s sha_ok=False
+exp1_s0_r20 f1m.bin    rep=7 status=504   19.01s sha_ok=False
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp1_s0_r20_gateway_fetch_stats.csv (6 rows)
+wrote /Users/utkarshsharma/Desktop/Scabale-System-Go/Building-Scalable-Systems-CS6650/midterm-mastery/part2/results/exp1_s0_r20_backend_stats.csv (1 rows)
+PHASES_2_3_DONE
+P23_EXIT=0
