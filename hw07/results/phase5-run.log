@@ -1,0 +1,4 @@
+=== 100 workers: deploying
+Apply complete! Resources: 1 added, 1 changed, 1 destroyed.
+SUMMARY requests=2794 failures=0 success=100.0% rps=48.9 p50=100ms p95=120ms max=390ms
+test ended 16:43:07; waiting for the queue to drain

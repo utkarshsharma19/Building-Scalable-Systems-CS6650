@@ -1,0 +1,6 @@
+.venv
+build/
+.terraform
+*.tfstate*
+__pycache__/
+results/*/queue-watch.log
