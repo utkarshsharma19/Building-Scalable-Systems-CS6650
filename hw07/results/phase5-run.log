@@ -2,3 +2,14 @@
 Apply complete! Resources: 1 added, 1 changed, 1 destroyed.
 SUMMARY requests=2794 failures=0 success=100.0% rps=48.9 p50=100ms p95=120ms max=390ms
 test ended 16:43:07; waiting for the queue to drain
+peak visible=837; queue empty since 16:44:24 (CSV: results/p5-w100/queue.csv)
+=== 20 workers: deploying
+Apply complete! Resources: 1 added, 1 changed, 1 destroyed.
+SUMMARY requests=2837 failures=0 success=100.0% rps=48.8 p50=100ms p95=120ms max=388ms
+test ended 16:48:22; waiting for the queue to drain
+peak visible=2441; queue empty since 16:55:26 (CSV: results/p5-w20/queue.csv)
+=== 5 workers: deploying
+Apply complete! Resources: 1 added, 1 changed, 1 destroyed.
+SUMMARY requests=2854 failures=0 success=100.0% rps=49.0 p50=100ms p95=120ms max=396ms
+test ended 16:59:39; waiting for the queue to drain
+scripts/queue-watch.sh: line 20: echo: write error: Interrupted system call

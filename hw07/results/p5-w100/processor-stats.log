@@ -1,0 +1,10 @@
+2026-11-07T21:42:11 {"time":"2026-11-07T21:42:11.390923905Z","level":"INFO","msg":"stats","workers":100,"in_flight":64,"completed":0,"rate_per_s":0,"failed":0}
+2026-11-07T21:42:21 {"time":"2026-11-07T21:42:21.391145003Z","level":"INFO","msg":"stats","workers":100,"in_flight":100,"completed":300,"rate_per_s":30,"failed":0}
+2026-11-07T21:42:31 {"time":"2026-11-07T21:42:31.391469003Z","level":"INFO","msg":"stats","workers":100,"in_flight":100,"completed":618,"rate_per_s":31.8,"failed":0}
+2026-11-07T21:42:41 {"time":"2026-11-07T21:42:41.391125887Z","level":"INFO","msg":"stats","workers":100,"in_flight":100,"completed":958,"rate_per_s":34,"failed":0}
+2026-11-07T21:42:51 {"time":"2026-11-07T21:42:51.390656069Z","level":"INFO","msg":"stats","workers":100,"in_flight":100,"completed":1300,"rate_per_s":34.2,"failed":0}
+2026-11-07T21:43:01 {"time":"2026-11-07T21:43:01.390312077Z","level":"INFO","msg":"stats","workers":100,"in_flight":99,"completed":1616,"rate_per_s":31.6,"failed":0}
+2026-11-07T21:43:11 {"time":"2026-11-07T21:43:11.391408869Z","level":"INFO","msg":"stats","workers":100,"in_flight":100,"completed":1945,"rate_per_s":32.9,"failed":0}
+2026-11-07T21:43:21 {"time":"2026-11-07T21:43:21.390663477Z","level":"INFO","msg":"stats","workers":100,"in_flight":99,"completed":2291,"rate_per_s":34.6,"failed":0}
+2026-11-07T21:43:31 {"time":"2026-11-07T21:43:31.39102587Z","level":"INFO","msg":"stats","workers":100,"in_flight":100,"completed":2613,"rate_per_s":32.2,"failed":0}
+2026-11-07T21:43:41 {"time":"2026-11-07T21:43:41.390479451Z","level":"INFO","msg":"stats","workers":100,"in_flight":0,"completed":2844,"rate_per_s":23.1,"failed":0}

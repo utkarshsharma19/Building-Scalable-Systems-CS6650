@@ -22,9 +22,12 @@ case $mode in
   burst) for ((i = 1; i <= n; i++)); do send & done; wait ;;
   report)
     aws logs filter-log-events --log-group-name "$group" --filter-pattern '"REPORT RequestId"' \
-      --start-time $(( ($(date +%s) - 3600) * 1000 )) --query 'events[].[timestamp,message]' --output text |
-      while IFS=$'\t' read -r ts msg; do
-        kind=warm; [[ $msg == *"Init Duration"* ]] && kind=COLD
-        echo "$(date -r $((ts / 1000)) +%T) $kind $(echo "$msg" | tr '\t' ' ' | sed 's/RequestId: [^ ]* //')"
-      done ;;
+      --start-time $(( ($(date +%s) - 3600) * 1000 )) --output json |
+      python3 -c '
+import json, sys, time
+for e in json.load(sys.stdin)["events"]:
+    m = " ".join(e["message"].split())
+    kind = "COLD" if "Init Duration" in m else "warm"
+    m = m.split(" ", 3)[3] if m.startswith("REPORT RequestId:") else m
+    print(time.strftime("%H:%M:%S", time.localtime(e["timestamp"] / 1000)), kind, m)' ;;
 esac
