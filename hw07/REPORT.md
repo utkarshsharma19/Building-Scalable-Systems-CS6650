@@ -9,8 +9,8 @@ Code and data: [github.com/utkarshsharma19/Building-Scalable-Systems-CS6650/tree
 
 | Question | My answer |
 |---|---|
-| How many times more orders did async accept than sync? | **About 160×**: 48.8 orders/s accepted vs. 0.3 orders/s completed, under the same 20-user flash load. Async replied in 0.1 s (median) vs. 30 s. |
-| Max sync throughput with 20 customers / orders lost per second | **0.33 orders/s** (measured 0.3); with 20 orders/s of demand, **~19.7 orders/s are lost** |
+| How many times more orders did async accept than sync? | **About 147×**: 48.8 orders/s accepted vs. 0.33 orders/s completed, under the same 20-user flash load. Async replied in 0.1 s (median) vs. 30 s. |
+| Max sync throughput with 20 customers / orders lost per second | **0.33 orders/s** (measured 0.33); with 20 orders/s of demand, **~19.7 orders/s are lost** |
 | Queue growth with 1 worker / time to clear | **~48.5 msgs/s** measured (59.7/s at 60/s); one hour at 60/s takes **~10,700 min (7.5 days)** to clear, longer than SQS's 4-day retention |
 | Processing rate with 5 / 20 / 100 workers | **1.66 / 6.66 / 32.66 orders/s** (theory N/3: 1.67 / 6.67 / 33.3) |
 | Minimum workers for no buildup at 60 orders/s | **180** (60/s × 3 s, Little's Law) |
@@ -37,10 +37,10 @@ Code and data: [github.com/utkarshsharma19/Building-Scalable-Systems-CS6650/tree
 
 ## Phase 1: synchronous processing
 
-| Test | Users / spawn rate | Duration | Orders completed | Throughput | Median | p95 |
-|---|---|---|---|---|---|---|
-| Normal | 5 / 1 per s | 30 s | 9 | 0.3/s | 12 s | 15 s |
-| Flash sale | 20 / 10 per s | 60 s | 19 | 0.3/s | 30 s | 56 s |
+| Test | Users / spawn rate | Duration | Orders completed | Failures | Throughput | Median / p95 | Average / max |
+|---|---|---|---|---|---|---|---|
+| Normal | 5 / 1 per s | 30 s | 9 | 0 | 0.33/s | 12 s / 15 s | 10.5 s / 14.7 s |
+| Flash sale | 20 / 10 per s | 60 s | 19 | 0 | 0.33/s | 30 s / 56 s | 29.8 s / 56.2 s |
 
 Locust reports "100% success" for both runs, and that's misleading. Locust only counts requests that finish. At the end of the flash test the receiver still had **19 customers waiting in the payment line**, and those requests were dropped, not counted as failures.
 
@@ -177,7 +177,8 @@ Measured cost per order ≈ 3.0 s × 0.5 GB = **1.5 GB-s**.
 
 | Metric | Utkarsh | Teammate 2 | Teammate 3 |
 |---|---|---|---|
-| Sync flash throughput | 0.3/s | | |
+| Sync flash throughput | 0.33/s | | |
+| Sync flash average / max response | 29.8 s / 56.2 s | | |
 | Async flash acceptance (orders/s) | 48.8/s | | |
 | Peak queue depth, 1 / 5 / 20 / 100 workers | 2,897 / 2,779 / 2,441 / 837 | | |
 | Time to empty, 5 / 20 / 100 workers | 28.7 min / 6.9 min / 66 s | | |

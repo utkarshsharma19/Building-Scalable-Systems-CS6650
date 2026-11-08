@@ -77,7 +77,7 @@ if tests:
     vals = [float(summary(n)["Requests/s"]) for n, _ in tests]
     bars = ax.bar([l for _, l in tests], vals, color=[S2, S2, S1][: len(tests)], width=0.55)
     for b, v in zip(bars, vals):
-        ax.annotate(f"{v:.1f}/s", (b.get_x() + b.get_width() / 2, v), ha="center", va="bottom",
+        ax.annotate(f"{v:.2f}/s" if v < 1 else f"{v:.1f}/s", (b.get_x() + b.get_width() / 2, v), ha="center", va="bottom",
                     xytext=(0, 3), textcoords="offset points", color=INK)
     ax.set_ylabel("Orders accepted per second")
     ax.set_title(f"Async accepted {vals[-1] / vals[-2]:.0f}x more orders per second than sync")
