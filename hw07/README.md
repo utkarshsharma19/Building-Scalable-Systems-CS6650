@@ -1,5 +1,7 @@
 # HW7: Sync vs. async order processing (SNS/SQS/ECS) and Lambda
 
+**Report:** [REPORT.md](REPORT.md) · PDF: [HW7-Utkarsh-Sharma.pdf](HW7-Utkarsh-Sharma.pdf) · all numbers: [results/FINDINGS.md](results/FINDINGS.md)
+
 ```
 Sync:   Customer → ALB → Receiver → Payment (3 s, one at a time) → 200
 Async:  Customer → ALB → Receiver → SNS → 202 (< 100 ms)
