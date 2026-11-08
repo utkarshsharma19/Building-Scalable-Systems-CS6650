@@ -47,7 +47,7 @@ def queue(name):
 
 
 def processor_rate(name):
-    """Median completed/s over 10 s windows where every worker slot stayed busy."""
+    """Mean completed/s over 10 s windows where every worker slot stayed busy."""
     p = RES / name / "processor-stats.log"
     if not p.exists():
         return None
@@ -59,7 +59,7 @@ def processor_rate(name):
             continue
         if s.get("in_flight", 0) >= s["workers"] * 0.9 and s["rate_per_s"] > 0:
             rates.append(s["rate_per_s"])
-    return statistics.median(rates) if rates else None
+    return statistics.mean(rates) if rates else None
 
 
 def save(fig, name):
@@ -128,13 +128,16 @@ for name, label, color in runs:
         continue
     t0, _ = history(name)
     pts = [((e - t0) / 60, v) for e, v in q if e >= t0 - 10]
-    ax.plot([p[0] for p in pts], [p[1] for p in pts], color=color, label=label)
-    peak = max(pts, key=lambda p: p[1])
-    ax.annotate(f"{peak[1]:,}", peak, xytext=(4, 4), textcoords="offset points", fontsize=8, color=INK2)
+    peak = max(p[1] for p in pts)
+    ax.plot([p[0] for p in pts], [p[1] for p in pts], color=color, label=f"{label} (peak {peak:,})")
+    if name == "p3-async-w1":
+        ax.annotate("queue purged\n(would take ~2.4 h)", pts[-1], xytext=(6, 0), textcoords="offset points",
+                    fontsize=8, color=INK2, va="center")
     plotted = True
 if plotted:
     ax.axvspan(0, 1, color=GRID, alpha=0.6, linewidth=0)
-    ax.text(0.5, ax.get_ylim()[1] * 0.97, "flash sale\n(60 s)", ha="center", va="top", fontsize=8, color=INK2)
+    ax.text(0.5, -150, "sale", ha="center", va="top", fontsize=8, color=INK2)
+    ax.set_ylim(-300, None)
     ax.set_xlabel("Minutes since the flash sale started")
     ax.set_ylabel("Messages waiting in SQS")
     ax.set_title("Queue depth: more workers, smaller and shorter backlog")
@@ -152,15 +155,15 @@ for n, name in [(1, "p3-async-w1"), (5, "p5-w5"), (20, "p5-w20"), (100, "p5-w100
 if meas:
     fig, ax = plt.subplots(figsize=(6.5, 3.6))
     xs = [1, 5, 20, 100, 180]
+    ticks = [0, 20, 50, 100, 150, 180]
     ax.plot(xs, [x / 3 for x in xs], color=INK2, linestyle=":", linewidth=1.5, label="theory: N / 3 s")
     ax.plot([m[0] for m in meas], [m[1] for m in meas], "o", color=S1, markersize=8, label="measured")
-    for n, r in meas:
-        ax.annotate(f"{r:.2f}/s", (n, r), xytext=(6, -12), textcoords="offset points", fontsize=8, color=INK)
+    key = "Measured (theory)\n" + "\n".join(f"{n:>3} workers: {r:5.2f}/s ({n / 3:5.2f})" for n, r in meas)
+    ax.text(0.03, 0.62, key, transform=ax.transAxes, fontsize=8, color=INK, va="top", family="monospace")
     ax.axhline(60, color=S2, linewidth=1.5)
-    ax.text(1.1, 62, "flash-sale demand ~60 orders/s -> needs 180 workers", fontsize=8, color=INK2)
-    ax.set_xscale("log")
-    ax.set_xticks(xs, [str(x) for x in xs])
-    ax.set_xlabel("Worker goroutines (log scale)")
+    ax.text(2, 62, "flash-sale demand ~60 orders/s -> needs 180 workers", fontsize=8, color=INK2)
+    ax.set_xticks(ticks)
+    ax.set_xlabel("Worker goroutines")
     ax.set_ylabel("Orders processed per second")
     ax.set_title("Processing rate grows linearly with workers")
     ax.legend(loc="upper left", bbox_to_anchor=(0, 0.92))

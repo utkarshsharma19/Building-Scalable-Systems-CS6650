@@ -40,20 +40,20 @@ Same flash load each time (AsyncUser, 20 users, 60 s, about 49 orders/s arriving
 
 | Workers | Theory (N/3 s) | Measured rate | Peak queue | Queue empty after test end | Max CPU | Max memory |
 |---|---|---|---|---|---|---|
-| 1 | 0.33/s | 0.3–0.4/s | 2,897 | ~145 min (computed; purged) | 2.9% | 1.4% |
-| 5 | 1.67/s | W5_RATE | W5_PEAK | W5_DRAIN | W5_CPU | W5_MEM |
-| 20 | 6.67/s | 6.0–8.0/s (median 6.6) | 2,441 | 412 s (6.9 min) | 8.0% | 1.6% |
-| 100 | 33.3/s | 30–34.6/s (median 32.6) | 837 | 66 s | 29.3% | 1.6% |
+| 1 | 0.33/s | 0.3–0.4/s (mean 0.33) | 2,897 | ~145 min (computed; purged) | 2.9% | 1.4% |
+| 5 | 1.67/s | 1.5–2.0/s (mean 1.66) | 2,779 | 1,721 s (28.7 min) | 3.4% | 1.6% |
+| 20 | 6.67/s | 6.0–8.0/s (mean 6.66) | 2,441 | 412 s (6.9 min) | 8.0% | 1.6% |
+| 100 | 33.3/s | 30–34.6/s (mean 32.66) | 837 | 66 s | 29.3% | 1.6% |
 
 - The rate grows **linearly with workers** (N / 3 s), because each worker spends its 3 s sleeping, not computing.
 - Even 100 workers (33/s) can't keep up with 49/s arriving, so the queue still builds (+16/s, about 900 by the end of the sale), but it drains about a minute later.
 - **Minimum workers to prevent buildup at 60 orders/s: 60 × 3 = 180** (Little's Law: in-flight = arrival rate × time per order). For our measured 49/s: 147.
-- **Resources aren't the limit.** CPU scales with workers (2.9% → 8% → 29% for 1 → 20 → 100) because of SQS receive/delete calls, and memory stays flat at about 1.5%. 180 workers would use roughly 50% CPU, so one 0.25 vCPU task can handle it. The real limit is the payment provider's 3 s, not our container.
+- **Resources aren't the limit.** CPU scales with workers (2.9% → 3.4% → 8% → 29% for 1 → 5 → 20 → 100) because of SQS receive/delete calls, and memory stays flat at about 1.5%. 180 workers would use roughly 50% CPU, so one 0.25 vCPU task can handle it. The real limit is the payment provider's 3 s, not our container.
 - Measured rates oscillate between 6 and 8 per 10 s window because orders finish in batches of up to 10 (one ReceiveMessage call).
 
 ## Part III: Lambda (SNS → Lambda, no SQS)
 
-Deployed `hw7-order-processor`: Go on `provided.al2`, 512 MB, triggered directly by `order-processing-events`. Ten orders were sent with curl through the same `/orders/async` endpoint (`scripts/lambda-orders.sh`); there was no Locust. Raw REPORT lines: `results/lambda-report.txt`; graph: `screenshots/p3-lambda-lambda.png`.
+Deployed `hw7-order-processor`: Go on `provided.al2`, 512 MB, triggered directly by `order-processing-events`. Twelve orders were sent with curl (10 by hand, plus 2 after a 13-minute idle gap) through the same `/orders/async` endpoint (`scripts/lambda-orders.sh`); there was no Locust. Raw REPORT lines: `results/lambda-report.txt`; graph: `screenshots/p3-lambda-lambda.png`.
 
 | Time (local) | Request | Start | Duration | Billed | Init Duration |
 |---|---|---|---|---|---|
@@ -63,12 +63,13 @@ Deployed `hw7-order-processor`: Go on `provided.al2`, 512 MB, triggered directly
 | 17:06:59 | burst of 3, two of them | warm | 3,004 ms | 3,004 ms | — |
 | 17:07:00 | burst of 3, the third | **cold** | 3,004 ms | 3,088 ms | 83.5 ms |
 | 17:08:08–11 | 2 orders, ~1 min later | warm | 3,002–3,003 ms | 3,002–3,003 ms | — |
-| IDLE_ROWS |
+| 17:21:10 | order after 13 min idle | **cold** | 3,002 ms | 3,068 ms | 64.9 ms |
+| 17:21:13 | next order, 2 s later | **cold** | 3,005 ms | 3,078 ms | 73.3 ms |
 
-**How often did cold starts occur?** 3 of the first 10 invocations, and not only on "the first request":
+**How often did cold starts occur?** 3 of the first 10 invocations, then 2 of 2 after the idle gap, and not only on "the first request":
 - Order 2 arrived 2 s after order 1, while order 1 was still in its 3 s payment. Lambda runs one event per instance, so it had to **start a second instance, which was cold**. Cold starts follow *new concurrency*, not just idle time.
 - In the burst of 3, two orders reused the two warm instances, and the third needed a new, cold one.
-- After more than 10 minutes idle: IDLE_RESULT
+- After more than 10 minutes idle: **both orders were cold** (Init 65 ms and 73 ms). All three warm instances from earlier had been reclaimed during the 13-minute gap, and the second order overlapped the first, so it got a fresh instance too. In total, **5 of 12 invocations were cold**: every new instance, whether caused by an idle gap or by overlap.
 
 **Overhead:** an Init Duration of 69–84 ms on 3,000 ms of work is **2.3–2.8%**, matching the assignment's 73 ms example. It's billed: billed duration includes the init time (3,074–3,088 ms vs. about 3,003 ms warm). Max memory used was 19 MB of 512 MB.
 
@@ -97,3 +98,6 @@ Prices: Lambda $0.20 per 1M requests and $0.0000166667 per GB-s; free tier 1M re
 - **For:** about $0 below ~267k orders/month. No worker-count tuning (Phase 5's "180 goroutines" decision disappears, because Lambda scales one instance per concurrent order). No processor health checks. 2–3% cold-start overhead doesn't matter for background payments.
 - **Against:** with SNS → Lambda directly, a failed order gets 2 retries and is then **dropped**. There's no backlog to replay, no visibility timeout, and no batching. A flash sale at 60/s × 3 s needs about **180 concurrent Lambdas**. A new or Learner Lab account's concurrency limit (often 10) would throttle that, and throttled async events are retried and eventually dropped.
 - **What we'd ship: SNS → SQS → Lambda (SQS event source).** It keeps SQS's durability, retention and dead-letter queue. Lambda polls and scales automatically, and `maximum_concurrency` caps it at what the payment provider allows. Alternatively, add an on-failure destination or DLQ to the direct SNS → Lambda path.
+
+- Drain times match `peak / rate`: 5 workers 2,779 / 1.67 ≈ 28 min (measured 28.7); 20 workers 2,441 / 6.67 ≈ 6 min (measured 6.9); 100 workers 837 / 33 ≈ 25 s plus the ~40 s it takes SQS's approximate counts to settle (measured 66 s).
+- Twelve Lambda test orders (Part III) were published during the 5-worker drain, so SQS got them too. That's 12 of about 2,800 messages, which is negligible.
