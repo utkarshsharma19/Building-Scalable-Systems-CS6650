@@ -1,0 +1,1 @@
+{"endpoint": "/health (no database)", "n": 50, "avg_ms": 85.9, "p50_ms": 85.7, "min_ms": 80.3, "max_ms": 93.85}

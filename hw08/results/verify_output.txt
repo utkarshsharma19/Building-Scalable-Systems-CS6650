@@ -1,0 +1,6 @@
+results/mysql_test_results.json: total=150 create_cart=50 add_items=50 get_cart=50 success=150 failed=0  OK
+results/dynamodb_test_results.json: total=150 create_cart=50 add_items=50 get_cart=50 success=150 failed=0  OK
+results/combined_results.json: records=300
+  mysql     create_cart=50 add_items=50 get_cart=50 total=150
+  dynamodb  create_cart=50 add_items=50 get_cart=50 total=150
+VERIFIED: both datasets have 150 operations, 50 of each type

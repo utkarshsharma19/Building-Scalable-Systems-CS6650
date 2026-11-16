@@ -1,0 +1,439 @@
+{
+  "pool200": {
+    "window": [
+      "2026-11-16T09:05:00Z",
+      "2026-11-16T09:09:00Z"
+    ],
+    "ecs_cpu_avg": {
+      "min": 30.126,
+      "max": 31.592,
+      "mean": 30.812,
+      "points": 4,
+      "sum": 123.247
+    },
+    "ecs_cpu_max": {
+      "min": 35.61,
+      "max": 37.907,
+      "mean": 36.609,
+      "points": 4,
+      "sum": 146.434
+    },
+    "ecs_mem_avg": {
+      "min": 1.562,
+      "max": 1.628,
+      "mean": 1.603,
+      "points": 4,
+      "sum": 6.413
+    },
+    "alb_target_rt_avg_s": {
+      "min": 0.004,
+      "max": 0.004,
+      "mean": 0.004,
+      "points": 4,
+      "sum": 0.017
+    },
+    "alb_target_rt_p95_s": {
+      "min": 0.009,
+      "max": 0.011,
+      "mean": 0.01,
+      "points": 4,
+      "sum": 0.038
+    },
+    "alb_requests": {
+      "min": 30187.0,
+      "max": 30245.0,
+      "mean": 30217.5,
+      "points": 4,
+      "sum": 120870.0
+    },
+    "ddb_wcu": {
+      "min": 20123.0,
+      "max": 20163.0,
+      "mean": 20145.0,
+      "points": 4,
+      "sum": 80580.0
+    },
+    "ddb_rcu": {
+      "min": 5031.0,
+      "max": 5041.0,
+      "mean": 5036.125,
+      "points": 4,
+      "sum": 20144.5
+    },
+    "ddb_latency_GetItem_avg": {
+      "min": 1.05,
+      "max": 1.11,
+      "mean": 1.082,
+      "points": 4,
+      "sum": 4.327
+    },
+    "ddb_latency_GetItem_p99": {
+      "min": 2.405,
+      "max": 2.872,
+      "mean": 2.611,
+      "points": 4,
+      "sum": 10.443
+    },
+    "ddb_latency_PutItem_avg": {
+      "min": 2.344,
+      "max": 2.417,
+      "mean": 2.384,
+      "points": 4,
+      "sum": 9.537
+    },
+    "ddb_latency_PutItem_p99": {
+      "min": 3.744,
+      "max": 4.152,
+      "mean": 3.98,
+      "points": 4,
+      "sum": 15.919
+    },
+    "ddb_latency_UpdateItem_avg": {
+      "min": 2.775,
+      "max": 2.84,
+      "mean": 2.809,
+      "points": 4,
+      "sum": 11.236
+    },
+    "ddb_latency_UpdateItem_p99": {
+      "min": 4.325,
+      "max": 4.743,
+      "mean": 4.54,
+      "points": 4,
+      "sum": 18.162
+    },
+    "ddb_read_throttles": null,
+    "ddb_write_throttles": null,
+    "ddb_conditional_failed": {
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "points": 1,
+      "sum": 1.0
+    }
+  },
+  "pool10": {
+    "window": [
+      "2026-11-16T09:19:00Z",
+      "2026-11-16T09:23:00Z"
+    ],
+    "ecs_cpu_avg": {
+      "min": 27.216,
+      "max": 30.2,
+      "mean": 28.997,
+      "points": 4,
+      "sum": 115.986
+    },
+    "ecs_cpu_max": {
+      "min": 34.416,
+      "max": 41.146,
+      "mean": 37.309,
+      "points": 4,
+      "sum": 149.234
+    },
+    "ecs_mem_avg": {
+      "min": 1.562,
+      "max": 1.628,
+      "mean": 1.579,
+      "points": 4,
+      "sum": 6.315
+    },
+    "alb_target_rt_avg_s": {
+      "min": 0.004,
+      "max": 0.004,
+      "mean": 0.004,
+      "points": 4,
+      "sum": 0.016
+    },
+    "alb_target_rt_p95_s": {
+      "min": 0.008,
+      "max": 0.009,
+      "mean": 0.009,
+      "points": 4,
+      "sum": 0.034
+    },
+    "alb_requests": {
+      "min": 30273.0,
+      "max": 30500.0,
+      "mean": 30373.0,
+      "points": 4,
+      "sum": 121492.0
+    },
+    "ddb_wcu": {
+      "min": 20186.0,
+      "max": 20328.0,
+      "mean": 20250.25,
+      "points": 4,
+      "sum": 81001.0
+    },
+    "ddb_rcu": {
+      "min": 5042.0,
+      "max": 5086.5,
+      "mean": 5061.125,
+      "points": 4,
+      "sum": 20244.5
+    },
+    "ddb_latency_GetItem_avg": {
+      "min": 1.139,
+      "max": 1.156,
+      "mean": 1.146,
+      "points": 4,
+      "sum": 4.586
+    },
+    "ddb_latency_GetItem_p99": {
+      "min": 2.199,
+      "max": 2.534,
+      "mean": 2.368,
+      "points": 4,
+      "sum": 9.474
+    },
+    "ddb_latency_PutItem_avg": {
+      "min": 2.441,
+      "max": 2.465,
+      "mean": 2.45,
+      "points": 4,
+      "sum": 9.801
+    },
+    "ddb_latency_PutItem_p99": {
+      "min": 3.779,
+      "max": 4.041,
+      "mean": 3.908,
+      "points": 4,
+      "sum": 15.631
+    },
+    "ddb_latency_UpdateItem_avg": {
+      "min": 2.867,
+      "max": 2.887,
+      "mean": 2.875,
+      "points": 4,
+      "sum": 11.502
+    },
+    "ddb_latency_UpdateItem_p99": {
+      "min": 4.261,
+      "max": 4.563,
+      "mean": 4.425,
+      "points": 4,
+      "sum": 17.701
+    },
+    "ddb_read_throttles": null,
+    "ddb_write_throttles": null,
+    "ddb_conditional_failed": {
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "points": 1,
+      "sum": 1.0
+    }
+  },
+  "test150": {
+    "window": [
+      "2026-11-16T08:54:00Z",
+      "2026-11-16T08:55:00Z"
+    ],
+    "ecs_cpu_avg": {
+      "min": 0.231,
+      "max": 0.231,
+      "mean": 0.231,
+      "points": 1,
+      "sum": 0.231
+    },
+    "ecs_cpu_max": {
+      "min": 0.672,
+      "max": 0.672,
+      "mean": 0.672,
+      "points": 1,
+      "sum": 0.672
+    },
+    "ecs_mem_avg": {
+      "min": 1.188,
+      "max": 1.188,
+      "mean": 1.188,
+      "points": 1,
+      "sum": 1.188
+    },
+    "alb_target_rt_avg_s": {
+      "min": 0.005,
+      "max": 0.005,
+      "mean": 0.005,
+      "points": 1,
+      "sum": 0.005
+    },
+    "alb_target_rt_p95_s": {
+      "min": 0.006,
+      "max": 0.006,
+      "mean": 0.006,
+      "points": 1,
+      "sum": 0.006
+    },
+    "alb_requests": {
+      "min": 150.0,
+      "max": 150.0,
+      "mean": 150.0,
+      "points": 1,
+      "sum": 150.0
+    },
+    "ddb_wcu": {
+      "min": 100.0,
+      "max": 100.0,
+      "mean": 100.0,
+      "points": 1,
+      "sum": 100.0
+    },
+    "ddb_rcu": {
+      "min": 25.0,
+      "max": 25.0,
+      "mean": 25.0,
+      "points": 1,
+      "sum": 25.0
+    },
+    "ddb_latency_GetItem_avg": {
+      "min": 1.225,
+      "max": 1.225,
+      "mean": 1.225,
+      "points": 1,
+      "sum": 1.225
+    },
+    "ddb_latency_GetItem_p99": {
+      "min": 2.445,
+      "max": 2.445,
+      "mean": 2.445,
+      "points": 1,
+      "sum": 2.445
+    },
+    "ddb_latency_PutItem_avg": {
+      "min": 3.192,
+      "max": 3.192,
+      "mean": 3.192,
+      "points": 1,
+      "sum": 3.192
+    },
+    "ddb_latency_PutItem_p99": {
+      "min": 19.289,
+      "max": 19.289,
+      "mean": 19.289,
+      "points": 1,
+      "sum": 19.289
+    },
+    "ddb_latency_UpdateItem_avg": {
+      "min": 2.931,
+      "max": 2.931,
+      "mean": 2.931,
+      "points": 1,
+      "sum": 2.931
+    },
+    "ddb_latency_UpdateItem_p99": {
+      "min": 4.2,
+      "max": 4.2,
+      "mean": 4.2,
+      "points": 1,
+      "sum": 4.2
+    },
+    "ddb_read_throttles": null,
+    "ddb_write_throttles": null,
+    "ddb_conditional_failed": null
+  },
+  "locust-mysql": {
+    "window": [
+      "2026-11-16T09:48:00Z",
+      "2026-11-16T09:52:00Z"
+    ],
+    "ecs_cpu_avg": {
+      "min": 16.23,
+      "max": 18.87,
+      "mean": 17.307,
+      "points": 4,
+      "sum": 69.228
+    },
+    "ecs_cpu_max": {
+      "min": 16.731,
+      "max": 20.686,
+      "mean": 19.025,
+      "points": 4,
+      "sum": 76.102
+    },
+    "ecs_mem_avg": {
+      "min": 1.367,
+      "max": 1.367,
+      "mean": 1.367,
+      "points": 4,
+      "sum": 5.469
+    },
+    "alb_target_rt_avg_s": {
+      "min": 0.006,
+      "max": 0.007,
+      "mean": 0.006,
+      "points": 4,
+      "sum": 0.025
+    },
+    "alb_target_rt_p95_s": {
+      "min": 0.013,
+      "max": 0.016,
+      "mean": 0.015,
+      "points": 4,
+      "sum": 0.06
+    },
+    "alb_requests": {
+      "min": 29972.0,
+      "max": 30058.0,
+      "mean": 30009.25,
+      "points": 4,
+      "sum": 120037.0
+    },
+    "rds_CPUUtilization_Average": {
+      "min": 23.85,
+      "max": 29.706,
+      "mean": 28.0,
+      "points": 4,
+      "sum": 111.999
+    },
+    "rds_CPUUtilization_Maximum": {
+      "min": 23.85,
+      "max": 29.706,
+      "mean": 28.0,
+      "points": 4,
+      "sum": 111.999
+    },
+    "rds_DatabaseConnections_Maximum": {
+      "min": 20.0,
+      "max": 20.0,
+      "mean": 20.0,
+      "points": 4,
+      "sum": 80.0
+    },
+    "rds_ReadIOPS_Average": {
+      "min": 0.05,
+      "max": 1.367,
+      "mean": 0.396,
+      "points": 4,
+      "sum": 1.583
+    },
+    "rds_WriteIOPS_Average": {
+      "min": 436.371,
+      "max": 452.296,
+      "mean": 446.297,
+      "points": 4,
+      "sum": 1785.187
+    },
+    "rds_ReadLatency_Average": {
+      "min": 0.0,
+      "max": 0.001,
+      "mean": 0.0,
+      "points": 4,
+      "sum": 0.001
+    },
+    "rds_WriteLatency_Average": {
+      "min": 0.0,
+      "max": 0.001,
+      "mean": 0.001,
+      "points": 4,
+      "sum": 0.002
+    },
+    "rds_FreeableMemory_Average": {
+      "min": 67145728.0,
+      "max": 72212480.0,
+      "mean": 69439488.0,
+      "points": 4,
+      "sum": 277757952.0
+    }
+  }
+}

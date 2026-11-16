@@ -1,0 +1,704 @@
+{
+  "verify_dynamodb": {
+    "file": "dynamodb_test_results.json",
+    "total": 150,
+    "create_cart": 50,
+    "add_items": 50,
+    "get_cart": 50,
+    "successful": 150,
+    "failed": 0,
+    "format_ok": true,
+    "valid": true
+  },
+  "dynamodb": {
+    "all": {
+      "n": 150,
+      "success": 150,
+      "success_rate": 100.0,
+      "avg": 91.79,
+      "p50": 89.7,
+      "p95": 99.49,
+      "p99": 130.56,
+      "min": 81.02,
+      "max": 243.12
+    },
+    "create_cart": {
+      "n": 50,
+      "success": 50,
+      "success_rate": 100.0,
+      "avg": 95.07,
+      "p50": 90.69,
+      "p95": 102.95,
+      "p99": 182.13,
+      "min": 82.79,
+      "max": 243.12
+    },
+    "add_items": {
+      "n": 50,
+      "success": 50,
+      "success_rate": 100.0,
+      "avg": 90.77,
+      "p50": 89.84,
+      "p95": 95.26,
+      "p99": 104.42,
+      "min": 85.68,
+      "max": 107.95
+    },
+    "get_cart": {
+      "n": 50,
+      "success": 50,
+      "success_rate": 100.0,
+      "avg": 89.54,
+      "p50": 88.84,
+      "p95": 94.09,
+      "p99": 119.59,
+      "min": 81.02,
+      "max": 142.0
+    }
+  },
+  "network_baseline": {
+    "endpoint": "/health (no database)",
+    "n": 50,
+    "avg_ms": 85.9,
+    "p50_ms": 85.7,
+    "min_ms": 80.3,
+    "max_ms": 93.85
+  },
+  "server_test150_dynamodb": {
+    "get_cart": {
+      "op": "get_cart",
+      "n": 50.0,
+      "svc_avg": 3.03,
+      "svc_p50": 1.87,
+      "svc_p95": 2.96,
+      "svc_p99": 55.5,
+      "db_avg": 3.01,
+      "db_p50": 1.84,
+      "db_p95": 2.93,
+      "db_p99": 55.48,
+      "db_max": 55.48
+    },
+    "add_items": {
+      "op": "add_items",
+      "n": 50.0,
+      "svc_avg": 3.9,
+      "svc_p50": 3.69,
+      "svc_p95": 4.34,
+      "svc_p99": 13.31,
+      "db_avg": 3.68,
+      "db_p50": 3.65,
+      "db_p95": 4.3,
+      "db_p99": 5.12,
+      "db_max": 5.12
+    },
+    "create_cart": {
+      "op": "create_cart",
+      "n": 50.0,
+      "svc_avg": 4.67,
+      "svc_p50": 3.35,
+      "svc_p95": 12.48,
+      "svc_p99": 23.41,
+      "db_avg": 4.09,
+      "db_p50": 3.22,
+      "db_p95": 4.98,
+      "db_p99": 23.33,
+      "db_max": 23.33
+    }
+  },
+  "locust_pool200": {
+    "requests": 148639,
+    "failures": 0,
+    "rps": 495.8,
+    "avg": 98.4,
+    "p50": 98,
+    "p95": 110,
+    "p99": 120,
+    "p999": 380,
+    "max": 405,
+    "per_op": {
+      "create_cart": {
+        "p50": 98,
+        "p95": 110,
+        "p99": 130
+      },
+      "add_items": {
+        "p50": 98,
+        "p95": 110,
+        "p99": 120
+      },
+      "get_cart": {
+        "p50": 97,
+        "p95": 110,
+        "p99": 120
+      }
+    }
+  },
+  "server_locust_pool200": {
+    "add_items": {
+      "op": "add_items",
+      "n": 49607.0,
+      "svc_avg": 4.44,
+      "svc_p50": 3.73,
+      "svc_p95": 12.09,
+      "svc_p99": 13.29,
+      "db_avg": 3.85,
+      "db_p50": 3.69,
+      "db_p95": 5.0,
+      "db_p99": 6.88,
+      "db_max": 190.47
+    },
+    "create_cart": {
+      "op": "create_cart",
+      "n": 49624.0,
+      "svc_avg": 4.07,
+      "svc_p50": 3.34,
+      "svc_p95": 11.71,
+      "svc_p99": 12.88,
+      "db_avg": 3.43,
+      "db_p50": 3.28,
+      "db_p95": 4.51,
+      "db_p99": 6.4,
+      "db_max": 181.32
+    },
+    "get_cart": {
+      "op": "get_cart",
+      "n": 49585.0,
+      "svc_avg": 2.14,
+      "svc_p50": 2.01,
+      "svc_p95": 3.09,
+      "svc_p99": 5.05,
+      "db_avg": 2.13,
+      "db_p50": 1.98,
+      "db_p95": 3.09,
+      "db_p99": 5.05,
+      "db_max": 256.07
+    }
+  },
+  "locust_pool10": {
+    "requests": 147919,
+    "failures": 0,
+    "rps": 497.9,
+    "avg": 97.6,
+    "p50": 97,
+    "p95": 110,
+    "p99": 120,
+    "p999": 380,
+    "max": 399,
+    "per_op": {
+      "create_cart": {
+        "p50": 97,
+        "p95": 110,
+        "p99": 130
+      },
+      "add_items": {
+        "p50": 98,
+        "p95": 110,
+        "p99": 120
+      },
+      "get_cart": {
+        "p50": 96,
+        "p95": 100,
+        "p99": 110
+      }
+    }
+  },
+  "server_locust_pool10": {
+    "add_items": {
+      "op": "add_items",
+      "n": 48566.0,
+      "svc_avg": 4.28,
+      "svc_p50": 3.58,
+      "svc_p95": 12.01,
+      "svc_p99": 13.01,
+      "db_avg": 3.7,
+      "db_p50": 3.55,
+      "db_p95": 4.81,
+      "db_p99": 6.88,
+      "db_max": 236.07
+    },
+    "create_cart": {
+      "op": "create_cart",
+      "n": 48550.0,
+      "svc_avg": 3.91,
+      "svc_p50": 3.2,
+      "svc_p95": 11.73,
+      "svc_p99": 12.6,
+      "db_avg": 3.28,
+      "db_p50": 3.12,
+      "db_p95": 4.37,
+      "db_p99": 6.25,
+      "db_max": 249.59
+    },
+    "get_cart": {
+      "op": "get_cart",
+      "n": 48536.0,
+      "svc_avg": 1.98,
+      "svc_p50": 1.83,
+      "svc_p95": 2.99,
+      "svc_p99": 4.81,
+      "db_avg": 1.97,
+      "db_p50": 1.83,
+      "db_p95": 2.94,
+      "db_p99": 4.81,
+      "db_max": 173.34
+    }
+  },
+  "locust_mysql": {
+    "requests": 147470,
+    "failures": 0,
+    "rps": 492.3,
+    "avg": 100.0,
+    "p50": 98,
+    "p95": 110,
+    "p99": 160,
+    "p999": 380,
+    "max": 411,
+    "per_op": {
+      "create_cart": {
+        "p50": 97,
+        "p95": 110,
+        "p99": 170
+      },
+      "add_items": {
+        "p50": 100,
+        "p95": 120,
+        "p99": 170
+      },
+      "get_cart": {
+        "p50": 95,
+        "p95": 100,
+        "p99": 140
+      }
+    }
+  },
+  "server_locust_mysql": {
+    "add_items": {
+      "op": "add_items",
+      "n": 47986.0,
+      "svc_avg": 9.94,
+      "svc_p50": 7.39,
+      "svc_p95": 17.41,
+      "svc_p99": 66.06,
+      "db_avg": 9.34,
+      "db_p50": 7.16,
+      "db_p95": 15.09,
+      "db_p99": 66.06,
+      "db_max": 314.13
+    },
+    "get_cart": {
+      "op": "get_cart",
+      "n": 48016.0,
+      "svc_avg": 2.31,
+      "svc_p50": 1.51,
+      "svc_p95": 2.83,
+      "svc_p99": 17.57,
+      "db_avg": 2.3,
+      "db_p50": 1.51,
+      "db_p95": 2.83,
+      "db_p99": 17.57,
+      "db_max": 281.05
+    },
+    "create_cart": {
+      "op": "create_cart",
+      "n": 47976.0,
+      "svc_avg": 4.67,
+      "svc_p50": 2.65,
+      "svc_p95": 11.31,
+      "svc_p99": 34.05,
+      "db_avg": 4.04,
+      "db_p50": 2.57,
+      "db_p95": 5.84,
+      "db_p99": 32.99,
+      "db_max": 270.72
+    }
+  },
+  "consistency": {
+    "client": {
+      "client_create_then_read": {
+        "trials": 100,
+        "stale_first_reads": 0,
+        "stale_pct": 0.0,
+        "max_converge_ms_when_stale": 0
+      },
+      "client_add_then_read": {
+        "trials": 100,
+        "stale_first_reads": 0,
+        "stale_pct": 0.0,
+        "max_converge_ms_when_stale": 0
+      },
+      "probe_create": {
+        "trials": 1000,
+        "stale_first_reads": 7,
+        "stale_pct": 0.7,
+        "max_converge_ms_when_stale": 22.493
+      },
+      "probe_update": {
+        "trials": 1000,
+        "stale_first_reads": 1,
+        "stale_pct": 0.1,
+        "max_converge_ms_when_stale": 4.447
+      }
+    },
+    "concurrent": {
+      "cart_id": 1964531303,
+      "writers": 10,
+      "adds_per_writer": 20,
+      "readers": 4,
+      "write_errors": 0,
+      "write_phase_s": 2.11,
+      "expected_total_quantity": 200,
+      "strong_read_total_quantity": 200,
+      "strong_read_version": 201,
+      "eventual_read_total_quantity_after": 200,
+      "lost_updates": 0,
+      "reader_observations": 91,
+      "version_regressions_seen_by_readers": 0
+    },
+    "probe_create": {
+      "trials": 5000,
+      "stale": 12,
+      "stale_pct": 0.24,
+      "per_run": [
+        7,
+        0,
+        5
+      ],
+      "converge_ms": [
+        2.895,
+        2.902,
+        3.04,
+        4.338,
+        4.515,
+        5.267,
+        6.364,
+        10.362,
+        10.363,
+        13.566,
+        15.092,
+        22.493
+      ],
+      "max_converge_ms": 22.493,
+      "median_converge_ms": 5.82,
+      "max_stale_reads": 16,
+      "write_ms_avg": 3.47,
+      "read_ms_avg": 2.15
+    },
+    "probe_update": {
+      "trials": 5000,
+      "stale": 5,
+      "stale_pct": 0.1,
+      "per_run": [
+        1,
+        4,
+        0
+      ],
+      "converge_ms": [
+        2.372,
+        3.864,
+        4.415,
+        4.447,
+        10.837
+      ],
+      "max_converge_ms": 10.837,
+      "median_converge_ms": 4.42,
+      "max_stale_reads": 1,
+      "write_ms_avg": 2.89,
+      "read_ms_avg": 1.5
+    }
+  },
+  "consistency_mysql": {
+    "client": {
+      "client_create_then_read": {
+        "trials": 100,
+        "stale_first_reads": 0,
+        "stale_pct": 0.0,
+        "max_converge_ms_when_stale": 0
+      },
+      "client_add_then_read": {
+        "trials": 100,
+        "stale_first_reads": 0,
+        "stale_pct": 0.0,
+        "max_converge_ms_when_stale": 0
+      }
+    },
+    "concurrent": {
+      "cart_id": 153,
+      "writers": 10,
+      "adds_per_writer": 20,
+      "readers": 4,
+      "write_errors": 0,
+      "write_phase_s": 2.11,
+      "expected_total_quantity": 200,
+      "strong_read_total_quantity": 200,
+      "strong_read_version": 201,
+      "eventual_read_total_quantity_after": 200,
+      "lost_updates": 0,
+      "reader_observations": 92,
+      "version_regressions_seen_by_readers": 0
+    }
+  },
+  "verify_mysql": {
+    "file": "mysql_test_results.json",
+    "total": 150,
+    "create_cart": 50,
+    "add_items": 50,
+    "get_cart": 50,
+    "successful": 150,
+    "failed": 0,
+    "format_ok": true,
+    "valid": true
+  },
+  "mysql": {
+    "all": {
+      "n": 150,
+      "success": 150,
+      "success_rate": 100.0,
+      "avg": 88.72,
+      "p50": 86.03,
+      "p95": 97.69,
+      "p99": 130.65,
+      "min": 80.02,
+      "max": 187.34
+    },
+    "create_cart": {
+      "n": 50,
+      "success": 50,
+      "success_rate": 100.0,
+      "avg": 88.11,
+      "p50": 85.23,
+      "p95": 96.19,
+      "p99": 143.48,
+      "min": 81.05,
+      "max": 187.34
+    },
+    "add_items": {
+      "n": 50,
+      "success": 50,
+      "success_rate": 100.0,
+      "avg": 92.51,
+      "p50": 90.35,
+      "p95": 102.53,
+      "p99": 130.65,
+      "min": 86.55,
+      "max": 142.59
+    },
+    "get_cart": {
+      "n": 50,
+      "success": 50,
+      "success_rate": 100.0,
+      "avg": 85.55,
+      "p50": 85.14,
+      "p95": 90.15,
+      "p99": 97.31,
+      "min": 80.02,
+      "max": 99.54
+    }
+  },
+  "server_test150_mysql": {
+    "get_cart": {
+      "op": "get_cart",
+      "n": 50.0,
+      "svc_avg": 2.2,
+      "svc_p50": 1.9,
+      "svc_p95": 2.95,
+      "svc_p99": 19.71,
+      "db_avg": 2.17,
+      "db_p50": 1.88,
+      "db_p95": 2.94,
+      "db_p99": 19.7,
+      "db_max": 19.7
+    },
+    "add_items": {
+      "op": "add_items",
+      "n": 50.0,
+      "svc_avg": 9.24,
+      "svc_p50": 7.92,
+      "svc_p95": 17.52,
+      "svc_p99": 61.19,
+      "db_avg": 9.02,
+      "db_p50": 7.86,
+      "db_p95": 17.47,
+      "db_p99": 61.15,
+      "db_max": 61.15
+    },
+    "create_cart": {
+      "op": "create_cart",
+      "n": 50.0,
+      "svc_avg": 3.09,
+      "svc_p50": 2.9,
+      "svc_p95": 5.61,
+      "svc_p99": 11.73,
+      "db_avg": 2.84,
+      "db_p50": 2.86,
+      "db_p95": 3.17,
+      "db_p99": 5.92,
+      "db_max": 5.92
+    }
+  },
+  "combined": {
+    "records": 300,
+    "by_db_op": {
+      "mysql": {
+        "create_cart": 50,
+        "add_items": 50,
+        "get_cart": 50
+      },
+      "dynamodb": {
+        "create_cart": 50,
+        "add_items": 50,
+        "get_cart": 50
+      }
+    },
+    "stats": {
+      "mysql": {
+        "all": {
+          "n": 150,
+          "success": 150,
+          "success_rate": 100.0,
+          "avg": 88.72,
+          "p50": 86.03,
+          "p95": 97.69,
+          "p99": 130.65,
+          "min": 80.02,
+          "max": 187.34
+        },
+        "create_cart": {
+          "n": 50,
+          "success": 50,
+          "success_rate": 100.0,
+          "avg": 88.11,
+          "p50": 85.23,
+          "p95": 96.19,
+          "p99": 143.48,
+          "min": 81.05,
+          "max": 187.34
+        },
+        "add_items": {
+          "n": 50,
+          "success": 50,
+          "success_rate": 100.0,
+          "avg": 92.51,
+          "p50": 90.35,
+          "p95": 102.53,
+          "p99": 130.65,
+          "min": 86.55,
+          "max": 142.59
+        },
+        "get_cart": {
+          "n": 50,
+          "success": 50,
+          "success_rate": 100.0,
+          "avg": 85.55,
+          "p50": 85.14,
+          "p95": 90.15,
+          "p99": 97.31,
+          "min": 80.02,
+          "max": 99.54
+        }
+      },
+      "dynamodb": {
+        "all": {
+          "n": 150,
+          "success": 150,
+          "success_rate": 100.0,
+          "avg": 91.79,
+          "p50": 89.7,
+          "p95": 99.49,
+          "p99": 130.56,
+          "min": 81.02,
+          "max": 243.12
+        },
+        "create_cart": {
+          "n": 50,
+          "success": 50,
+          "success_rate": 100.0,
+          "avg": 95.07,
+          "p50": 90.69,
+          "p95": 102.95,
+          "p99": 182.13,
+          "min": 82.79,
+          "max": 243.12
+        },
+        "add_items": {
+          "n": 50,
+          "success": 50,
+          "success_rate": 100.0,
+          "avg": 90.77,
+          "p50": 89.84,
+          "p95": 95.26,
+          "p99": 104.42,
+          "min": 85.68,
+          "max": 107.95
+        },
+        "get_cart": {
+          "n": 50,
+          "success": 50,
+          "success_rate": 100.0,
+          "avg": 89.54,
+          "p50": 88.84,
+          "p95": 94.09,
+          "p99": 119.59,
+          "min": 81.02,
+          "max": 142.0
+        }
+      }
+    }
+  },
+  "table_overall": [
+    [
+      "Avg Response Time (ms)",
+      88.72,
+      91.79,
+      "MySQL",
+      "3.07 ms (3.3%)"
+    ],
+    [
+      "P50 Response Time (ms)",
+      86.03,
+      89.7,
+      "MySQL",
+      "3.67 ms (4.1%)"
+    ],
+    [
+      "P95 Response Time (ms)",
+      97.69,
+      99.49,
+      "MySQL",
+      "1.80 ms (1.8%)"
+    ],
+    [
+      "P99 Response Time (ms)",
+      130.65,
+      130.56,
+      "DynamoDB",
+      "0.09 ms (0.1%)"
+    ],
+    [
+      "Success Rate (%)",
+      100.0,
+      100.0,
+      "Tie",
+      "0"
+    ]
+  ],
+  "table_ops": [
+    [
+      "CREATE_CART",
+      88.11,
+      95.07,
+      "MySQL, 6.96 ms"
+    ],
+    [
+      "ADD_ITEMS",
+      92.51,
+      90.77,
+      "DynamoDB, 1.74 ms"
+    ],
+    [
+      "GET_CART",
+      85.55,
+      89.54,
+      "MySQL, 3.99 ms"
+    ]
+  ]
+}

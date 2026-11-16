@@ -1,0 +1,22 @@
+[
+  {
+    "max_in_use": "4",
+    "avg_in_use": "1.3684",
+    "max_open": "10",
+    "wc_start": "0",
+    "wc_end": "777",
+    "wms_start": "0",
+    "wms_end": "31284",
+    "samples": "38"
+  },
+  {
+    "max_in_use": "3",
+    "avg_in_use": "0.5385",
+    "max_open": "10",
+    "wc_start": "0",
+    "wc_end": "745",
+    "wms_start": "0",
+    "wms_end": "30196",
+    "samples": "39"
+  }
+]

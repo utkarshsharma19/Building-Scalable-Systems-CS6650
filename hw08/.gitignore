@@ -1,0 +1,6 @@
+.venv/
+terraform/.terraform/
+terraform/terraform.tfstate*
+terraform/tfplan*
+report/build/
+__pycache__/

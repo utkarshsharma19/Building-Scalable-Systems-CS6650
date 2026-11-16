@@ -1,0 +1,1138 @@
+{
+  "create_then_read": [
+    {
+      "cart_id": 52,
+      "write_ms": 219.91,
+      "stale_reads": 0,
+      "converge_ms": 92.2
+    },
+    {
+      "cart_id": 53,
+      "write_ms": 90.58,
+      "stale_reads": 0,
+      "converge_ms": 89.34
+    },
+    {
+      "cart_id": 54,
+      "write_ms": 93.87,
+      "stale_reads": 0,
+      "converge_ms": 93.79
+    },
+    {
+      "cart_id": 55,
+      "write_ms": 91.65,
+      "stale_reads": 0,
+      "converge_ms": 92.07
+    },
+    {
+      "cart_id": 56,
+      "write_ms": 90.99,
+      "stale_reads": 0,
+      "converge_ms": 94.64
+    },
+    {
+      "cart_id": 57,
+      "write_ms": 90.93,
+      "stale_reads": 0,
+      "converge_ms": 88.42
+    },
+    {
+      "cart_id": 58,
+      "write_ms": 90.7,
+      "stale_reads": 0,
+      "converge_ms": 88.05
+    },
+    {
+      "cart_id": 59,
+      "write_ms": 91.52,
+      "stale_reads": 0,
+      "converge_ms": 97.36
+    },
+    {
+      "cart_id": 60,
+      "write_ms": 103.96,
+      "stale_reads": 0,
+      "converge_ms": 88.31
+    },
+    {
+      "cart_id": 61,
+      "write_ms": 95.87,
+      "stale_reads": 0,
+      "converge_ms": 88.99
+    },
+    {
+      "cart_id": 62,
+      "write_ms": 90.65,
+      "stale_reads": 0,
+      "converge_ms": 89.06
+    },
+    {
+      "cart_id": 63,
+      "write_ms": 92.38,
+      "stale_reads": 0,
+      "converge_ms": 87.68
+    },
+    {
+      "cart_id": 64,
+      "write_ms": 92.15,
+      "stale_reads": 0,
+      "converge_ms": 91.57
+    },
+    {
+      "cart_id": 65,
+      "write_ms": 91.23,
+      "stale_reads": 0,
+      "converge_ms": 93.9
+    },
+    {
+      "cart_id": 66,
+      "write_ms": 91.38,
+      "stale_reads": 0,
+      "converge_ms": 87.99
+    },
+    {
+      "cart_id": 67,
+      "write_ms": 91.18,
+      "stale_reads": 0,
+      "converge_ms": 88.82
+    },
+    {
+      "cart_id": 68,
+      "write_ms": 91.42,
+      "stale_reads": 0,
+      "converge_ms": 97.65
+    },
+    {
+      "cart_id": 69,
+      "write_ms": 90.47,
+      "stale_reads": 0,
+      "converge_ms": 92.11
+    },
+    {
+      "cart_id": 70,
+      "write_ms": 88.86,
+      "stale_reads": 0,
+      "converge_ms": 92.29
+    },
+    {
+      "cart_id": 71,
+      "write_ms": 90.87,
+      "stale_reads": 0,
+      "converge_ms": 87.92
+    },
+    {
+      "cart_id": 72,
+      "write_ms": 91.87,
+      "stale_reads": 0,
+      "converge_ms": 88.63
+    },
+    {
+      "cart_id": 73,
+      "write_ms": 91.29,
+      "stale_reads": 0,
+      "converge_ms": 88.54
+    },
+    {
+      "cart_id": 74,
+      "write_ms": 91.52,
+      "stale_reads": 0,
+      "converge_ms": 88.75
+    },
+    {
+      "cart_id": 75,
+      "write_ms": 99.23,
+      "stale_reads": 0,
+      "converge_ms": 88.04
+    },
+    {
+      "cart_id": 76,
+      "write_ms": 92.72,
+      "stale_reads": 0,
+      "converge_ms": 87.88
+    },
+    {
+      "cart_id": 77,
+      "write_ms": 92.01,
+      "stale_reads": 0,
+      "converge_ms": 86.98
+    },
+    {
+      "cart_id": 78,
+      "write_ms": 95.25,
+      "stale_reads": 0,
+      "converge_ms": 92.39
+    },
+    {
+      "cart_id": 79,
+      "write_ms": 89.46,
+      "stale_reads": 0,
+      "converge_ms": 86.96
+    },
+    {
+      "cart_id": 80,
+      "write_ms": 91.98,
+      "stale_reads": 0,
+      "converge_ms": 88.87
+    },
+    {
+      "cart_id": 81,
+      "write_ms": 91.09,
+      "stale_reads": 0,
+      "converge_ms": 88.64
+    },
+    {
+      "cart_id": 82,
+      "write_ms": 91.38,
+      "stale_reads": 0,
+      "converge_ms": 92.21
+    },
+    {
+      "cart_id": 83,
+      "write_ms": 91.98,
+      "stale_reads": 0,
+      "converge_ms": 88.29
+    },
+    {
+      "cart_id": 84,
+      "write_ms": 91.14,
+      "stale_reads": 0,
+      "converge_ms": 87.34
+    },
+    {
+      "cart_id": 85,
+      "write_ms": 88.8,
+      "stale_reads": 0,
+      "converge_ms": 91.96
+    },
+    {
+      "cart_id": 86,
+      "write_ms": 91.36,
+      "stale_reads": 0,
+      "converge_ms": 89.32
+    },
+    {
+      "cart_id": 87,
+      "write_ms": 89.66,
+      "stale_reads": 0,
+      "converge_ms": 90.23
+    },
+    {
+      "cart_id": 88,
+      "write_ms": 90.69,
+      "stale_reads": 0,
+      "converge_ms": 88.5
+    },
+    {
+      "cart_id": 89,
+      "write_ms": 91.31,
+      "stale_reads": 0,
+      "converge_ms": 89.07
+    },
+    {
+      "cart_id": 90,
+      "write_ms": 91.26,
+      "stale_reads": 0,
+      "converge_ms": 92.28
+    },
+    {
+      "cart_id": 91,
+      "write_ms": 91.74,
+      "stale_reads": 0,
+      "converge_ms": 91.44
+    },
+    {
+      "cart_id": 92,
+      "write_ms": 88.08,
+      "stale_reads": 0,
+      "converge_ms": 88.92
+    },
+    {
+      "cart_id": 93,
+      "write_ms": 90.38,
+      "stale_reads": 0,
+      "converge_ms": 88.23
+    },
+    {
+      "cart_id": 94,
+      "write_ms": 91.65,
+      "stale_reads": 0,
+      "converge_ms": 89.73
+    },
+    {
+      "cart_id": 95,
+      "write_ms": 89.51,
+      "stale_reads": 0,
+      "converge_ms": 88.44
+    },
+    {
+      "cart_id": 96,
+      "write_ms": 92.16,
+      "stale_reads": 0,
+      "converge_ms": 88.85
+    },
+    {
+      "cart_id": 97,
+      "write_ms": 90.5,
+      "stale_reads": 0,
+      "converge_ms": 87.86
+    },
+    {
+      "cart_id": 98,
+      "write_ms": 91.18,
+      "stale_reads": 0,
+      "converge_ms": 90.09
+    },
+    {
+      "cart_id": 99,
+      "write_ms": 90.71,
+      "stale_reads": 0,
+      "converge_ms": 87.23
+    },
+    {
+      "cart_id": 100,
+      "write_ms": 91.58,
+      "stale_reads": 0,
+      "converge_ms": 89.07
+    },
+    {
+      "cart_id": 101,
+      "write_ms": 91.28,
+      "stale_reads": 0,
+      "converge_ms": 87.49
+    },
+    {
+      "cart_id": 102,
+      "write_ms": 92.43,
+      "stale_reads": 0,
+      "converge_ms": 92.43
+    },
+    {
+      "cart_id": 103,
+      "write_ms": 96.74,
+      "stale_reads": 0,
+      "converge_ms": 93.0
+    },
+    {
+      "cart_id": 104,
+      "write_ms": 93.21,
+      "stale_reads": 0,
+      "converge_ms": 88.3
+    },
+    {
+      "cart_id": 105,
+      "write_ms": 90.83,
+      "stale_reads": 0,
+      "converge_ms": 89.19
+    },
+    {
+      "cart_id": 106,
+      "write_ms": 91.26,
+      "stale_reads": 0,
+      "converge_ms": 92.29
+    },
+    {
+      "cart_id": 107,
+      "write_ms": 90.61,
+      "stale_reads": 0,
+      "converge_ms": 89.64
+    },
+    {
+      "cart_id": 108,
+      "write_ms": 94.57,
+      "stale_reads": 0,
+      "converge_ms": 98.71
+    },
+    {
+      "cart_id": 109,
+      "write_ms": 91.27,
+      "stale_reads": 0,
+      "converge_ms": 87.4
+    },
+    {
+      "cart_id": 110,
+      "write_ms": 91.64,
+      "stale_reads": 0,
+      "converge_ms": 88.29
+    },
+    {
+      "cart_id": 111,
+      "write_ms": 86.94,
+      "stale_reads": 0,
+      "converge_ms": 89.25
+    },
+    {
+      "cart_id": 112,
+      "write_ms": 91.22,
+      "stale_reads": 0,
+      "converge_ms": 93.06
+    },
+    {
+      "cart_id": 113,
+      "write_ms": 91.48,
+      "stale_reads": 0,
+      "converge_ms": 88.87
+    },
+    {
+      "cart_id": 114,
+      "write_ms": 98.53,
+      "stale_reads": 0,
+      "converge_ms": 88.28
+    },
+    {
+      "cart_id": 115,
+      "write_ms": 129.08,
+      "stale_reads": 0,
+      "converge_ms": 87.62
+    },
+    {
+      "cart_id": 116,
+      "write_ms": 90.7,
+      "stale_reads": 0,
+      "converge_ms": 93.21
+    },
+    {
+      "cart_id": 117,
+      "write_ms": 91.26,
+      "stale_reads": 0,
+      "converge_ms": 88.65
+    },
+    {
+      "cart_id": 118,
+      "write_ms": 91.51,
+      "stale_reads": 0,
+      "converge_ms": 88.03
+    },
+    {
+      "cart_id": 119,
+      "write_ms": 92.41,
+      "stale_reads": 0,
+      "converge_ms": 87.56
+    },
+    {
+      "cart_id": 120,
+      "write_ms": 90.7,
+      "stale_reads": 0,
+      "converge_ms": 87.76
+    },
+    {
+      "cart_id": 121,
+      "write_ms": 91.73,
+      "stale_reads": 0,
+      "converge_ms": 89.6
+    },
+    {
+      "cart_id": 122,
+      "write_ms": 91.66,
+      "stale_reads": 0,
+      "converge_ms": 87.15
+    },
+    {
+      "cart_id": 123,
+      "write_ms": 93.2,
+      "stale_reads": 0,
+      "converge_ms": 88.13
+    },
+    {
+      "cart_id": 124,
+      "write_ms": 90.08,
+      "stale_reads": 0,
+      "converge_ms": 88.25
+    },
+    {
+      "cart_id": 125,
+      "write_ms": 92.04,
+      "stale_reads": 0,
+      "converge_ms": 87.7
+    },
+    {
+      "cart_id": 126,
+      "write_ms": 92.83,
+      "stale_reads": 0,
+      "converge_ms": 87.39
+    },
+    {
+      "cart_id": 127,
+      "write_ms": 90.66,
+      "stale_reads": 0,
+      "converge_ms": 88.33
+    },
+    {
+      "cart_id": 128,
+      "write_ms": 92.0,
+      "stale_reads": 0,
+      "converge_ms": 89.62
+    },
+    {
+      "cart_id": 129,
+      "write_ms": 94.04,
+      "stale_reads": 0,
+      "converge_ms": 89.02
+    },
+    {
+      "cart_id": 130,
+      "write_ms": 91.3,
+      "stale_reads": 0,
+      "converge_ms": 91.52
+    },
+    {
+      "cart_id": 131,
+      "write_ms": 87.78,
+      "stale_reads": 0,
+      "converge_ms": 89.43
+    },
+    {
+      "cart_id": 132,
+      "write_ms": 89.99,
+      "stale_reads": 0,
+      "converge_ms": 89.55
+    },
+    {
+      "cart_id": 133,
+      "write_ms": 91.8,
+      "stale_reads": 0,
+      "converge_ms": 104.98
+    },
+    {
+      "cart_id": 134,
+      "write_ms": 95.42,
+      "stale_reads": 0,
+      "converge_ms": 89.48
+    },
+    {
+      "cart_id": 135,
+      "write_ms": 91.46,
+      "stale_reads": 0,
+      "converge_ms": 90.6
+    },
+    {
+      "cart_id": 136,
+      "write_ms": 93.06,
+      "stale_reads": 0,
+      "converge_ms": 91.75
+    },
+    {
+      "cart_id": 137,
+      "write_ms": 88.19,
+      "stale_reads": 0,
+      "converge_ms": 92.72
+    },
+    {
+      "cart_id": 138,
+      "write_ms": 92.69,
+      "stale_reads": 0,
+      "converge_ms": 87.06
+    },
+    {
+      "cart_id": 139,
+      "write_ms": 91.73,
+      "stale_reads": 0,
+      "converge_ms": 88.84
+    },
+    {
+      "cart_id": 140,
+      "write_ms": 90.06,
+      "stale_reads": 0,
+      "converge_ms": 88.71
+    },
+    {
+      "cart_id": 141,
+      "write_ms": 89.24,
+      "stale_reads": 0,
+      "converge_ms": 87.16
+    },
+    {
+      "cart_id": 142,
+      "write_ms": 91.51,
+      "stale_reads": 0,
+      "converge_ms": 91.45
+    },
+    {
+      "cart_id": 143,
+      "write_ms": 91.03,
+      "stale_reads": 0,
+      "converge_ms": 88.79
+    },
+    {
+      "cart_id": 144,
+      "write_ms": 94.97,
+      "stale_reads": 0,
+      "converge_ms": 91.73
+    },
+    {
+      "cart_id": 145,
+      "write_ms": 90.03,
+      "stale_reads": 0,
+      "converge_ms": 87.97
+    },
+    {
+      "cart_id": 146,
+      "write_ms": 91.17,
+      "stale_reads": 0,
+      "converge_ms": 88.06
+    },
+    {
+      "cart_id": 147,
+      "write_ms": 91.3,
+      "stale_reads": 0,
+      "converge_ms": 88.14
+    },
+    {
+      "cart_id": 148,
+      "write_ms": 88.51,
+      "stale_reads": 0,
+      "converge_ms": 86.34
+    },
+    {
+      "cart_id": 149,
+      "write_ms": 91.87,
+      "stale_reads": 0,
+      "converge_ms": 89.52
+    },
+    {
+      "cart_id": 150,
+      "write_ms": 90.88,
+      "stale_reads": 0,
+      "converge_ms": 91.71
+    },
+    {
+      "cart_id": 151,
+      "write_ms": 92.18,
+      "stale_reads": 0,
+      "converge_ms": 88.64
+    }
+  ],
+  "add_then_read": {
+    "cart_id": 152,
+    "trials": [
+      {
+        "write_ms": 89.8,
+        "stale_reads": 0,
+        "converge_ms": 84.06
+      },
+      {
+        "write_ms": 88.18,
+        "stale_reads": 0,
+        "converge_ms": 81.93
+      },
+      {
+        "write_ms": 93.11,
+        "stale_reads": 0,
+        "converge_ms": 82.52
+      },
+      {
+        "write_ms": 88.66,
+        "stale_reads": 0,
+        "converge_ms": 86.29
+      },
+      {
+        "write_ms": 88.73,
+        "stale_reads": 0,
+        "converge_ms": 81.27
+      },
+      {
+        "write_ms": 85.26,
+        "stale_reads": 0,
+        "converge_ms": 82.91
+      },
+      {
+        "write_ms": 88.2,
+        "stale_reads": 0,
+        "converge_ms": 84.06
+      },
+      {
+        "write_ms": 87.36,
+        "stale_reads": 0,
+        "converge_ms": 84.43
+      },
+      {
+        "write_ms": 89.92,
+        "stale_reads": 0,
+        "converge_ms": 82.02
+      },
+      {
+        "write_ms": 89.69,
+        "stale_reads": 0,
+        "converge_ms": 84.38
+      },
+      {
+        "write_ms": 89.87,
+        "stale_reads": 0,
+        "converge_ms": 86.13
+      },
+      {
+        "write_ms": 88.67,
+        "stale_reads": 0,
+        "converge_ms": 82.8
+      },
+      {
+        "write_ms": 88.43,
+        "stale_reads": 0,
+        "converge_ms": 89.42
+      },
+      {
+        "write_ms": 90.7,
+        "stale_reads": 0,
+        "converge_ms": 86.09
+      },
+      {
+        "write_ms": 87.88,
+        "stale_reads": 0,
+        "converge_ms": 86.59
+      },
+      {
+        "write_ms": 89.49,
+        "stale_reads": 0,
+        "converge_ms": 83.41
+      },
+      {
+        "write_ms": 92.86,
+        "stale_reads": 0,
+        "converge_ms": 85.6
+      },
+      {
+        "write_ms": 88.11,
+        "stale_reads": 0,
+        "converge_ms": 82.66
+      },
+      {
+        "write_ms": 93.08,
+        "stale_reads": 0,
+        "converge_ms": 86.53
+      },
+      {
+        "write_ms": 89.09,
+        "stale_reads": 0,
+        "converge_ms": 85.95
+      },
+      {
+        "write_ms": 85.02,
+        "stale_reads": 0,
+        "converge_ms": 90.58
+      },
+      {
+        "write_ms": 87.83,
+        "stale_reads": 0,
+        "converge_ms": 87.87
+      },
+      {
+        "write_ms": 84.24,
+        "stale_reads": 0,
+        "converge_ms": 82.02
+      },
+      {
+        "write_ms": 88.91,
+        "stale_reads": 0,
+        "converge_ms": 90.27
+      },
+      {
+        "write_ms": 95.86,
+        "stale_reads": 0,
+        "converge_ms": 83.94
+      },
+      {
+        "write_ms": 88.4,
+        "stale_reads": 0,
+        "converge_ms": 86.8
+      },
+      {
+        "write_ms": 89.35,
+        "stale_reads": 0,
+        "converge_ms": 85.6
+      },
+      {
+        "write_ms": 94.03,
+        "stale_reads": 0,
+        "converge_ms": 86.53
+      },
+      {
+        "write_ms": 88.1,
+        "stale_reads": 0,
+        "converge_ms": 89.68
+      },
+      {
+        "write_ms": 86.48,
+        "stale_reads": 0,
+        "converge_ms": 85.7
+      },
+      {
+        "write_ms": 88.49,
+        "stale_reads": 0,
+        "converge_ms": 85.67
+      },
+      {
+        "write_ms": 89.97,
+        "stale_reads": 0,
+        "converge_ms": 86.1
+      },
+      {
+        "write_ms": 89.29,
+        "stale_reads": 0,
+        "converge_ms": 81.03
+      },
+      {
+        "write_ms": 90.01,
+        "stale_reads": 0,
+        "converge_ms": 107.0
+      },
+      {
+        "write_ms": 107.94,
+        "stale_reads": 0,
+        "converge_ms": 87.55
+      },
+      {
+        "write_ms": 95.58,
+        "stale_reads": 0,
+        "converge_ms": 84.22
+      },
+      {
+        "write_ms": 88.15,
+        "stale_reads": 0,
+        "converge_ms": 82.0
+      },
+      {
+        "write_ms": 88.36,
+        "stale_reads": 0,
+        "converge_ms": 85.29
+      },
+      {
+        "write_ms": 85.5,
+        "stale_reads": 0,
+        "converge_ms": 86.11
+      },
+      {
+        "write_ms": 89.73,
+        "stale_reads": 0,
+        "converge_ms": 85.26
+      },
+      {
+        "write_ms": 89.26,
+        "stale_reads": 0,
+        "converge_ms": 82.05
+      },
+      {
+        "write_ms": 89.38,
+        "stale_reads": 0,
+        "converge_ms": 84.56
+      },
+      {
+        "write_ms": 93.64,
+        "stale_reads": 0,
+        "converge_ms": 82.59
+      },
+      {
+        "write_ms": 89.86,
+        "stale_reads": 0,
+        "converge_ms": 84.93
+      },
+      {
+        "write_ms": 88.92,
+        "stale_reads": 0,
+        "converge_ms": 81.5
+      },
+      {
+        "write_ms": 124.94,
+        "stale_reads": 0,
+        "converge_ms": 82.91
+      },
+      {
+        "write_ms": 114.42,
+        "stale_reads": 0,
+        "converge_ms": 83.12
+      },
+      {
+        "write_ms": 89.36,
+        "stale_reads": 0,
+        "converge_ms": 85.4
+      },
+      {
+        "write_ms": 92.12,
+        "stale_reads": 0,
+        "converge_ms": 86.41
+      },
+      {
+        "write_ms": 86.81,
+        "stale_reads": 0,
+        "converge_ms": 86.36
+      },
+      {
+        "write_ms": 89.37,
+        "stale_reads": 0,
+        "converge_ms": 84.39
+      },
+      {
+        "write_ms": 89.26,
+        "stale_reads": 0,
+        "converge_ms": 82.54
+      },
+      {
+        "write_ms": 89.11,
+        "stale_reads": 0,
+        "converge_ms": 90.73
+      },
+      {
+        "write_ms": 88.62,
+        "stale_reads": 0,
+        "converge_ms": 86.59
+      },
+      {
+        "write_ms": 89.28,
+        "stale_reads": 0,
+        "converge_ms": 86.09
+      },
+      {
+        "write_ms": 88.68,
+        "stale_reads": 0,
+        "converge_ms": 85.33
+      },
+      {
+        "write_ms": 86.46,
+        "stale_reads": 0,
+        "converge_ms": 85.55
+      },
+      {
+        "write_ms": 89.1,
+        "stale_reads": 0,
+        "converge_ms": 89.63
+      },
+      {
+        "write_ms": 89.67,
+        "stale_reads": 0,
+        "converge_ms": 81.51
+      },
+      {
+        "write_ms": 89.39,
+        "stale_reads": 0,
+        "converge_ms": 86.51
+      },
+      {
+        "write_ms": 93.14,
+        "stale_reads": 0,
+        "converge_ms": 86.21
+      },
+      {
+        "write_ms": 90.38,
+        "stale_reads": 0,
+        "converge_ms": 84.17
+      },
+      {
+        "write_ms": 89.52,
+        "stale_reads": 0,
+        "converge_ms": 86.07
+      },
+      {
+        "write_ms": 85.62,
+        "stale_reads": 0,
+        "converge_ms": 86.17
+      },
+      {
+        "write_ms": 88.7,
+        "stale_reads": 0,
+        "converge_ms": 85.28
+      },
+      {
+        "write_ms": 85.55,
+        "stale_reads": 0,
+        "converge_ms": 85.84
+      },
+      {
+        "write_ms": 89.18,
+        "stale_reads": 0,
+        "converge_ms": 85.41
+      },
+      {
+        "write_ms": 92.09,
+        "stale_reads": 0,
+        "converge_ms": 84.62
+      },
+      {
+        "write_ms": 93.35,
+        "stale_reads": 0,
+        "converge_ms": 84.67
+      },
+      {
+        "write_ms": 89.34,
+        "stale_reads": 0,
+        "converge_ms": 82.97
+      },
+      {
+        "write_ms": 89.05,
+        "stale_reads": 0,
+        "converge_ms": 86.09
+      },
+      {
+        "write_ms": 87.7,
+        "stale_reads": 0,
+        "converge_ms": 82.25
+      },
+      {
+        "write_ms": 89.84,
+        "stale_reads": 0,
+        "converge_ms": 85.19
+      },
+      {
+        "write_ms": 89.71,
+        "stale_reads": 0,
+        "converge_ms": 89.77
+      },
+      {
+        "write_ms": 89.77,
+        "stale_reads": 0,
+        "converge_ms": 119.07
+      },
+      {
+        "write_ms": 87.65,
+        "stale_reads": 0,
+        "converge_ms": 85.49
+      },
+      {
+        "write_ms": 88.76,
+        "stale_reads": 0,
+        "converge_ms": 83.69
+      },
+      {
+        "write_ms": 88.38,
+        "stale_reads": 0,
+        "converge_ms": 85.37
+      },
+      {
+        "write_ms": 92.63,
+        "stale_reads": 0,
+        "converge_ms": 83.46
+      },
+      {
+        "write_ms": 89.66,
+        "stale_reads": 0,
+        "converge_ms": 84.57
+      },
+      {
+        "write_ms": 90.26,
+        "stale_reads": 0,
+        "converge_ms": 85.25
+      },
+      {
+        "write_ms": 85.64,
+        "stale_reads": 0,
+        "converge_ms": 85.16
+      },
+      {
+        "write_ms": 91.31,
+        "stale_reads": 0,
+        "converge_ms": 83.02
+      },
+      {
+        "write_ms": 91.68,
+        "stale_reads": 0,
+        "converge_ms": 85.11
+      },
+      {
+        "write_ms": 89.51,
+        "stale_reads": 0,
+        "converge_ms": 85.69
+      },
+      {
+        "write_ms": 88.98,
+        "stale_reads": 0,
+        "converge_ms": 81.76
+      },
+      {
+        "write_ms": 89.25,
+        "stale_reads": 0,
+        "converge_ms": 85.94
+      },
+      {
+        "write_ms": 89.32,
+        "stale_reads": 0,
+        "converge_ms": 84.83
+      },
+      {
+        "write_ms": 85.73,
+        "stale_reads": 0,
+        "converge_ms": 85.84
+      },
+      {
+        "write_ms": 88.74,
+        "stale_reads": 0,
+        "converge_ms": 85.27
+      },
+      {
+        "write_ms": 86.95,
+        "stale_reads": 0,
+        "converge_ms": 81.0
+      },
+      {
+        "write_ms": 87.22,
+        "stale_reads": 0,
+        "converge_ms": 82.7
+      },
+      {
+        "write_ms": 89.49,
+        "stale_reads": 0,
+        "converge_ms": 81.91
+      },
+      {
+        "write_ms": 93.64,
+        "stale_reads": 0,
+        "converge_ms": 85.85
+      },
+      {
+        "write_ms": 89.34,
+        "stale_reads": 0,
+        "converge_ms": 86.37
+      },
+      {
+        "write_ms": 88.82,
+        "stale_reads": 0,
+        "converge_ms": 81.53
+      },
+      {
+        "write_ms": 97.87,
+        "stale_reads": 0,
+        "converge_ms": 85.39
+      },
+      {
+        "write_ms": 87.81,
+        "stale_reads": 0,
+        "converge_ms": 84.44
+      },
+      {
+        "write_ms": 89.0,
+        "stale_reads": 0,
+        "converge_ms": 86.34
+      },
+      {
+        "write_ms": 88.39,
+        "stale_reads": 0,
+        "converge_ms": 86.76
+      }
+    ]
+  },
+  "concurrent_same_cart": {
+    "cart_id": 153,
+    "writers": 10,
+    "adds_per_writer": 20,
+    "readers": 4,
+    "write_errors": 0,
+    "write_phase_s": 2.11,
+    "expected_total_quantity": 200,
+    "strong_read_total_quantity": 200,
+    "strong_read_version": 201,
+    "eventual_read_total_quantity_after": 200,
+    "lost_updates": 0,
+    "reader_observations": 92,
+    "version_regressions_seen_by_readers": 0
+  },
+  "summary": {
+    "client_create_then_read": {
+      "trials": 100,
+      "stale_first_reads": 0,
+      "stale_pct": 0.0,
+      "max_converge_ms_when_stale": 0
+    },
+    "client_add_then_read": {
+      "trials": 100,
+      "stale_first_reads": 0,
+      "stale_pct": 0.0,
+      "max_converge_ms_when_stale": 0
+    }
+  }
+}
